@@ -51,7 +51,7 @@
                             <div class="modal-header" style="border-bottom: 0px solid #e5e5e5;">
                                 
                                 <div class="avatar">
-                                <img src="https://github.com/JordySa/sigac/blob/main/img/avatar.png" class="imgRedonda" alt="Avatar">
+<img src="https://raw.githubusercontent.com/JordySa/sigac/main/img/avatar.png" class="imgRedonda" alt="Avatar">
                             </div>
 
                                 
