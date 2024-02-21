@@ -70,7 +70,9 @@
 
                     <!--
                             <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
-                                <a class="fa fa-file-pdf-o" href="/view/GestionInformes" style="font-size:100px;"></a>
+<a href="https://app.powerbi.com/reportEmbed?reportId=24748a50-89c2-4fc6-a4b6-26a81b9dbdc5&autoAuth=true&ctid=136a0da6-6e34-4ca2-933d-36fa7895468e" target="_blank" style="font-size:100px;">
+    <i class="fa fa-file-pdf-o"></i>
+</a>
                                 <br />
                                 Gestión de Informes
                             </div>
