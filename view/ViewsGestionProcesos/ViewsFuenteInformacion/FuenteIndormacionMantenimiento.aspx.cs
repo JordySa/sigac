@@ -19,7 +19,7 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
         public static string sOpc = "";
 
 
-        private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\file-source\";
+private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/main/file-source/";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -299,7 +299,6 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
                 // Obtener la lista de nombres de archivos desde el campo File en la base de datos
                 List<string> nombresArchivosBD = funcion.File.Split(',').Select(x => x.Trim()).ToList();
 
-                string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\file-source\";
 
                 // Actualizar la GridView con la lista de archivos cargados
                 ActualizarGridViewAdmin(rutaCarpeta, nombresArchivosBD);
@@ -606,13 +605,12 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
             {
 
                 // Ruta de la carpeta para guardar los archivos
-                string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\file-source\";
 
-                // Obtener la lista de archivos
-                List<string> listaArchivos = ObtenerListaArchivos(rutaCarpeta);
+                // Llamada al método para actualizar la GridView y obtener los nombres de archivos mostrados
+                ActualizarGridView(rutaCarpeta);
 
                 // Construir la parte de la sentencia SQL para los nombres de archivos
-                string nombresArchivosStr = string.Join(",", listaArchivos);
+                string nombresArchivosStr = string.Join(",", nombresArchivosMostrados);
                 // Supongamos que strCod_func es la columna que identifica de manera única cada registro
                 string update = $@"
             UPDATE dbo.GC_GARGA_FIN 
