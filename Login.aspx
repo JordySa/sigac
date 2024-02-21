@@ -32,7 +32,7 @@
     <div class="contenedor">
             
     <div class="titulo1">
-        <img width="300" alt="UTC" src="/img/logo1.png">
+        <img width="300" alt="UTC" src="sigac/blob/main/Login.aspx">
         <div class="texto">SISTEMA INTEGRADO DE GESTIÓN</div>
 
                 
