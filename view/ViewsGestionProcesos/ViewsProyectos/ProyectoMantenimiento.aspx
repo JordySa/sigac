@@ -1,4 +1,4 @@
-﻿<%@ Page Title="ProyectoMantenimiento" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProyectoMantenimiento.aspx.cs" Inherits="sigac.view.ViewsGestionProcesos.ViewsProyectos.ProyectoMantenimiento" %>
+<%@ Page Title="ProyectoMantenimiento" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProyectoMantenimiento.aspx.cs" Inherits="sigac.view.ViewsGestionProcesos.ViewsProyectos.ProyectoMantenimiento" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
@@ -54,15 +54,17 @@
                 
     <div class="col-md-5">
         <div class="mb-4-custom">
-            <label class="form-label">Fecha de Inicio:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbDateI" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
-        </div>
+    <label class="form-label">Fecha de Inicio:</label>
+    <asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbDateI" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
+</div>
+
+
 
     <!-- Segunda columna -->
-        <div class="mb-4-custom">
-            <label class="form-label">Fecha de Finalización:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbDateF" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
-        </div>
+       <div class="mb-4-custom">
+    <label class="form-label">Fecha de Finalización:</label>
+    <asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbDateF" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
+</div>
 </div>
 
 <!-- Elemento centrado -->
@@ -110,13 +112,13 @@
     <div class="col-md-7">
         <div class="mb-4-custom">
             <label class="form-label">Fecha de  Fuentes de información Momento Inicio:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIFIn1" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+    <asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIFIn1" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 
     <!-- Segunda columna -->
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Fuentes de información  Momento Finalización:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFFIn1" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFFIn1" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 </div>
 
@@ -124,13 +126,13 @@
     <div class="col-md-5">
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Indicador Inicio:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIInd1" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIInd1" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 
     <!-- Segunda columna -->
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Indicador Finalización:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFInd1" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFInd1" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 </div>
            
@@ -146,13 +148,13 @@
     <div class="col-md-7">
         <div class="mb-4-custom">
             <label class="form-label">Fecha de  Fuentes de información Momento Inicio:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIFIn2" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIFIn2" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 
     <!-- Segunda columna -->
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Fuentes de información  Momento Finalización:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFFIn2" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFFIn2" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 </div>
 
@@ -161,13 +163,13 @@
     <div class="col-md-5">
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Indicador Inicio:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIInd2" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIInd2" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 
     <!-- Segunda columna -->
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Indicador Finalización:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFInd2" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFInd2" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 </div>
            
@@ -188,13 +190,13 @@
     <div class="col-md-4">
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Indicador Inicio:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIInd3" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoIInd3" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 
     <!-- Segunda columna -->
         <div class="mb-4-custom">
             <label class="form-label">Fecha de Indicador Finalización:</label>
-<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFInd3" onfocus="this.type='date'" placeholder="yyyy-MM-dd"></asp:TextBox>
+<asp:TextBox runat="server" TextMode="Date" CssClass="form-control" ID="tbMomentoFInd3" onfocus="this.type='date'" placeholder="yyyy-MM-dd" ClientIDMode="Static"></asp:TextBox>
         </div>
 </div>
   
@@ -257,8 +259,112 @@
         }
     </script>
 
-
     
+<script>
+    // Obtener el elemento TextBox de la fecha de inicio por ID
+    var tbDateI = document.getElementById('<%= tbDateI.ClientID %>');
+
+    // Obtener el año actual
+    var currentYear = new Date().getFullYear();
+
+    // Establecer el límite para la fecha de inicio al año actual
+    tbDateI.setAttribute("min", currentYear + "-01-01");
+    tbDateI.setAttribute("max", currentYear + "-12-31");
+
+    // Fuente de Informacion Momento 1
+    // Obtener el elemento TextBox de la otra fecha por ID
+    var tbMomentoIFIn1 = document.getElementById('<%= tbMomentoIFIn1.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoIFIn1.setAttribute("min", currentYear + "-01-01");
+    tbMomentoIFIn1.setAttribute("max", currentYear + "-12-31");
+
+    var tbMomentoFFIn1 = document.getElementById('<%= tbMomentoFFIn1.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoFFIn1.setAttribute("min", currentYear + "-01-01");
+    tbMomentoFFIn1.setAttribute("max", currentYear + "-12-31");
+
+
+    // Indicador
+    // Obtener el elemento TextBox de la otra fecha por ID
+    var tbMomentoIInd1 = document.getElementById('<%= tbMomentoIInd1.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoIInd1.setAttribute("min", currentYear + "-01-01");
+    tbMomentoIInd1.setAttribute("max", currentYear + "-12-31");
+
+    var tbMomentoFInd1 = document.getElementById('<%= tbMomentoFInd1.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoFInd1.setAttribute("min", currentYear + "-01-01");
+    tbMomentoFInd1.setAttribute("max", currentYear + "-12-31");
+
+
+
+
+    // Fuente de Informacion Momento 2
+    // Obtener el elemento TextBox de la otra fecha por ID
+    var tbMomentoIFIn2 = document.getElementById('<%= tbMomentoIFIn2.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoIFIn2.setAttribute("min", currentYear + "-01-01");
+    tbMomentoIFIn2.setAttribute("max", currentYear + "-12-31");
+
+    var tbMomentoFFIn2 = document.getElementById('<%= tbMomentoFFIn2.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoFFIn2.setAttribute("min", currentYear + "-01-01");
+    tbMomentoFFIn2.setAttribute("max", currentYear + "-12-31");
+
+
+    // Indicador
+    // Obtener el elemento TextBox de la otra fecha por ID
+    var tbMomentoIInd2 = document.getElementById('<%= tbMomentoIInd2.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoIInd2.setAttribute("min", currentYear + "-01-01");
+    tbMomentoIInd2.setAttribute("max", currentYear + "-12-31");
+
+    var tbMomentoFInd2 = document.getElementById('<%= tbMomentoFInd2.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoFInd2.setAttribute("min", currentYear + "-01-01");
+    tbMomentoFInd2.setAttribute("max", currentYear + "-12-31");
+
+
+
+    // Indicador Momento 3
+    // Obtener el elemento TextBox de la otra fecha por ID
+    var tbMomentoIInd3 = document.getElementById('<%= tbMomentoIInd3.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoIInd3.setAttribute("min", currentYear + "-01-01");
+    tbMomentoIInd3.setAttribute("max", currentYear + "-12-31");
+
+    var tbMomentoFInd3 = document.getElementById('<%= tbMomentoFInd3.ClientID %>');
+
+    // Establecer el límite para la otra fecha al año actual
+    tbMomentoFInd3.setAttribute("min", currentYear + "-01-01");
+    tbMomentoFInd3.setAttribute("max", currentYear + "-12-31");
+</script>
+    
+    <script>
+        // Obtener el elemento TextBox por ID
+        var tbDateF = document.getElementById('<%= tbDateF.ClientID %>');
+
+        // Obtener el año actual
+        var currentYear = new Date().getFullYear();
+
+        // Calcular el año límite permitido (2 años en el futuro)
+        var maxYear = currentYear + 1;
+
+        // Establecer el límite para el año actual hasta 2 años en el futuro
+        tbDateF.setAttribute("min", currentYear + "-01-01");
+        tbDateF.setAttribute("max", maxYear + "-12-31");
+    </script>
+
+
 <script>
 
     var selectedSetIndic = new Set();
@@ -382,6 +488,3 @@
 </script>
 
 </asp:Content>
-
-
-
