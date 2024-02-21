@@ -32,7 +32,7 @@
     <div class="contenedor">
             
     <div class="titulo1">
-        <img width="300" alt="UTC" src="/JordySa/sigac/blob/main/img/logo1.png">
+<img width="300" alt="UTC" src="https://raw.githubusercontent.com/JordySa/sigac/main/img/logo1.png">
         <div class="texto">SISTEMA INTEGRADO DE GESTIÓN</div>
 
                 
@@ -51,7 +51,7 @@
                             <div class="modal-header" style="border-bottom: 0px solid #e5e5e5;">
                                 
                                 <div class="avatar">
-                                <img src="/JordySa/sigac/blob/main/img/avatar.png" class="imgRedonda" alt="Avatar">
+                                <img src="https://github.com/JordySa/sigac/blob/main/img/avatar.png" class="imgRedonda" alt="Avatar">
                             </div>
 
                                 
