@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E285834-2B81-4851-997C-17539501F4FD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sigac</RootNamespace>
+    <AssemblyName>sigac</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44349</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\AspNet.ScriptManager.jQuery.3.7.0\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NCalc, Version=1.3.8.0, Culture=neutral, PublicKeyToken=973cde3f1cafed03, processorArchitecture=MSIL">
+      <HintPath>packages\ncalc.1.3.8\lib\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Header.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <None Include="Scripts\jquery-3.7.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.0.js" />
+    <Content Include="Scripts\jquery-3.7.0.min.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="style\login.css" />
+    <Content Include="style\plantilla.css" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="view\GestionAplicacion.aspx" />
+    <Content Include="view\GestionProcesos.aspx" />
+    <Content Include="view\GestionUsuarios.aspx" />
+    <Content Include="view\PanelControl.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsComponentes\ComponenteMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsComponentes\Componentes.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsDimensiones\Dimensiones.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsDimensiones\DimensionMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsEvidencias\EvidenciaMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsEvidencias\Evidencias.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsFuentesInformacion\FuenteInformacionMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsFuentesInformacion\FuentesInformacion.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsFunciones\Funciones.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsFunciones\FuncionMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsIndicadores\Indicadores.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsIndicadores\IndicadorMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsPeriodicidades\Periodicidades.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsPeriodicidades\PeriodicidadMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsProcesos\ProcesoMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsProcesos\Procesos.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsTiposProcesos\TipoProcesoMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsTiposProcesos\TiposProcesos.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsVariables\VariableMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionAplicaciones\ViewsVariables\Variables.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsFuenteInformacion\FuenteIndormacionMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsFuenteInformacion\FuenteInformacion.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsGestionIndicadores\GestionIndicadores.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsGestionIndicadores\GestionIndicadoresMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsMomentos\MomentoMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsMomentos\Momentos.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsProyectos\ProyectoMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionProcesos\ViewsProyectos\Proyectos.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsEquipos\EquipoMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsEquipos\Equipos.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsPadres\PadreMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsPadres\Padres.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsRoles\Roles.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsRoles\RolMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsUsuarios\UsuarioMantenimiento.aspx" />
+    <Content Include="view\ViewsGestionUsuarios\ViewsUsuarios\Usuarios.aspx" />
+    <Content Include="view\ViewsGestiónInformes\ViewsReporteIndicadores\ReporteIndicadores.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Header.aspx.cs">
+      <DependentUpon>Header.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Header.aspx.designer.cs">
+      <DependentUpon>Header.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Encrypt.cs" />
+    <Compile Include="Helper\VariablesGenerales.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="view\GestionAplicacion.aspx.cs">
+      <DependentUpon>GestionAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\GestionAplicacion.aspx.designer.cs">
+      <DependentUpon>GestionAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\GestionProcesos.aspx.cs">
+      <DependentUpon>GestionProcesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\GestionProcesos.aspx.designer.cs">
+      <DependentUpon>GestionProcesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\GestionUsuarios.aspx.cs">
+      <DependentUpon>GestionUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\GestionUsuarios.aspx.designer.cs">
+      <DependentUpon>GestionUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\PanelControl.aspx.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\PanelControl.aspx.designer.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsComponentes\ComponenteMantenimiento.aspx.cs">
+      <DependentUpon>ComponenteMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsComponentes\ComponenteMantenimiento.aspx.designer.cs">
+      <DependentUpon>ComponenteMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsComponentes\Componentes.aspx.cs">
+      <DependentUpon>Componentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsComponentes\Componentes.aspx.designer.cs">
+      <DependentUpon>Componentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsDimensiones\Dimensiones.aspx.cs">
+      <DependentUpon>Dimensiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsDimensiones\Dimensiones.aspx.designer.cs">
+      <DependentUpon>Dimensiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsDimensiones\DimensionMantenimiento.aspx.cs">
+      <DependentUpon>DimensionMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsDimensiones\DimensionMantenimiento.aspx.designer.cs">
+      <DependentUpon>DimensionMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsEvidencias\EvidenciaMantenimiento.aspx.cs">
+      <DependentUpon>EvidenciaMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsEvidencias\EvidenciaMantenimiento.aspx.designer.cs">
+      <DependentUpon>EvidenciaMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsEvidencias\Evidencias.aspx.cs">
+      <DependentUpon>Evidencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsEvidencias\Evidencias.aspx.designer.cs">
+      <DependentUpon>Evidencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFuentesInformacion\FuenteInformacionMantenimiento.aspx.cs">
+      <DependentUpon>FuenteInformacionMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFuentesInformacion\FuenteInformacionMantenimiento.aspx.designer.cs">
+      <DependentUpon>FuenteInformacionMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFuentesInformacion\FuentesInformacion.aspx.cs">
+      <DependentUpon>FuentesInformacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFuentesInformacion\FuentesInformacion.aspx.designer.cs">
+      <DependentUpon>FuentesInformacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFunciones\Funciones.aspx.cs">
+      <DependentUpon>Funciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFunciones\Funciones.aspx.designer.cs">
+      <DependentUpon>Funciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFunciones\FuncionMantenimiento.aspx.cs">
+      <DependentUpon>FuncionMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsFunciones\FuncionMantenimiento.aspx.designer.cs">
+      <DependentUpon>FuncionMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsIndicadores\Indicadores.aspx.cs">
+      <DependentUpon>Indicadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsIndicadores\Indicadores.aspx.designer.cs">
+      <DependentUpon>Indicadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsIndicadores\IndicadorMantenimiento.aspx.cs">
+      <DependentUpon>IndicadorMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsIndicadores\IndicadorMantenimiento.aspx.designer.cs">
+      <DependentUpon>IndicadorMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsPeriodicidades\Periodicidades.aspx.cs">
+      <DependentUpon>Periodicidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsPeriodicidades\Periodicidades.aspx.designer.cs">
+      <DependentUpon>Periodicidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsPeriodicidades\PeriodicidadMantenimiento.aspx.cs">
+      <DependentUpon>PeriodicidadMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsPeriodicidades\PeriodicidadMantenimiento.aspx.designer.cs">
+      <DependentUpon>PeriodicidadMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsProcesos\ProcesoMantenimiento.aspx.cs">
+      <DependentUpon>ProcesoMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsProcesos\ProcesoMantenimiento.aspx.designer.cs">
+      <DependentUpon>ProcesoMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsProcesos\Procesos.aspx.cs">
+      <DependentUpon>Procesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsProcesos\Procesos.aspx.designer.cs">
+      <DependentUpon>Procesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsTiposProcesos\TipoProcesoMantenimiento.aspx.cs">
+      <DependentUpon>TipoProcesoMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsTiposProcesos\TipoProcesoMantenimiento.aspx.designer.cs">
+      <DependentUpon>TipoProcesoMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsTiposProcesos\TiposProcesos.aspx.cs">
+      <DependentUpon>TiposProcesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsTiposProcesos\TiposProcesos.aspx.designer.cs">
+      <DependentUpon>TiposProcesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsVariables\VariableMantenimiento.aspx.cs">
+      <DependentUpon>VariableMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsVariables\VariableMantenimiento.aspx.designer.cs">
+      <DependentUpon>VariableMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsVariables\Variables.aspx.cs">
+      <DependentUpon>Variables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionAplicaciones\ViewsVariables\Variables.aspx.designer.cs">
+      <DependentUpon>Variables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsFuenteInformacion\FuenteIndormacionMantenimiento.aspx.cs">
+      <DependentUpon>FuenteIndormacionMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsFuenteInformacion\FuenteIndormacionMantenimiento.aspx.designer.cs">
+      <DependentUpon>FuenteIndormacionMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsFuenteInformacion\FuenteInformacion.aspx.cs">
+      <DependentUpon>FuenteInformacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsFuenteInformacion\FuenteInformacion.aspx.designer.cs">
+      <DependentUpon>FuenteInformacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsGestionIndicadores\GestionIndicadores.aspx.cs">
+      <DependentUpon>GestionIndicadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsGestionIndicadores\GestionIndicadores.aspx.designer.cs">
+      <DependentUpon>GestionIndicadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsGestionIndicadores\GestionIndicadoresMantenimiento.aspx.cs">
+      <DependentUpon>GestionIndicadoresMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsGestionIndicadores\GestionIndicadoresMantenimiento.aspx.designer.cs">
+      <DependentUpon>GestionIndicadoresMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsMomentos\MomentoMantenimiento.aspx.cs">
+      <DependentUpon>MomentoMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsMomentos\MomentoMantenimiento.aspx.designer.cs">
+      <DependentUpon>MomentoMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsMomentos\Momentos.aspx.cs">
+      <DependentUpon>Momentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsMomentos\Momentos.aspx.designer.cs">
+      <DependentUpon>Momentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsProyectos\ProyectoMantenimiento.aspx.cs">
+      <DependentUpon>ProyectoMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsProyectos\ProyectoMantenimiento.aspx.designer.cs">
+      <DependentUpon>ProyectoMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsProyectos\Proyectos.aspx.cs">
+      <DependentUpon>Proyectos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionProcesos\ViewsProyectos\Proyectos.aspx.designer.cs">
+      <DependentUpon>Proyectos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsEquipos\EquipoMantenimiento.aspx.cs">
+      <DependentUpon>EquipoMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsEquipos\EquipoMantenimiento.aspx.designer.cs">
+      <DependentUpon>EquipoMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsEquipos\Equipos.aspx.cs">
+      <DependentUpon>Equipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsEquipos\Equipos.aspx.designer.cs">
+      <DependentUpon>Equipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsPadres\PadreMantenimiento.aspx.cs">
+      <DependentUpon>PadreMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsPadres\PadreMantenimiento.aspx.designer.cs">
+      <DependentUpon>PadreMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsPadres\Padres.aspx.cs">
+      <DependentUpon>Padres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsPadres\Padres.aspx.designer.cs">
+      <DependentUpon>Padres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsRoles\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsRoles\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsRoles\RolMantenimiento.aspx.cs">
+      <DependentUpon>RolMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsRoles\RolMantenimiento.aspx.designer.cs">
+      <DependentUpon>RolMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsUsuarios\UsuarioMantenimiento.aspx.cs">
+      <DependentUpon>UsuarioMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsUsuarios\UsuarioMantenimiento.aspx.designer.cs">
+      <DependentUpon>UsuarioMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsUsuarios\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestionUsuarios\ViewsUsuarios\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\ViewsGestiónInformes\ViewsReporteIndicadores\ReporteIndicadores.aspx.cs">
+      <DependentUpon>ReporteIndicadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\ViewsGestiónInformes\ViewsReporteIndicadores\ReporteIndicadores.aspx.designer.cs">
+      <DependentUpon>ReporteIndicadores.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63836</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44349/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

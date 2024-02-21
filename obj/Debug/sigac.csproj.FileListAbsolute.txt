@@ -1,0 +1,391 @@
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\sigac.dll.config
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\sigac.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\sigac.pdb
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\csc.exe
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\csc.exe.config
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\csc.rsp
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\csi.exe
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\csi.exe.config
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\csi.rsp
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.AppContext.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Console.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.IO.Compression.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Net.Http.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Net.Sockets.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.ValueTuple.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Xml.XPath.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\vbc.exe
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\vbc.exe.config
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\vbc.rsp
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\VBCSCompiler.exe
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Antlr3.Runtime.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Newtonsoft.Json.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\System.Web.Optimization.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\WebGrease.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\System.Web.Optimization.xml
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Newtonsoft.Json.xml
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Antlr3.Runtime.pdb
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\es\System.Web.Optimization.resources.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\obj\Debug\sigac.csproj.AssemblyReference.cache
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\obj\Debug\sigac.csproj.CoreCompileInputs.cache
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\obj\Debug\sigac.csproj.CopyComplete
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\obj\Debug\sigac.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\obj\Debug\sigac.pdb
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\System.Data.SqlClient.dll
+C:\Users\colch\Desktop\drivecompartido\tesis jordi\proyecto\sigac\bin\System.Data.SqlClient.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\sigac.dll.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\sigac.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\sigac.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\csc.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\csc.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\csc.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\csi.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\csi.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\csi.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.AppContext.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Console.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.IO.Compression.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Net.Http.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Net.Sockets.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.ValueTuple.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\vbc.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\vbc.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\vbc.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\VBCSCompiler.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Antlr3.Runtime.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Newtonsoft.Json.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\System.Data.SqlClient.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\System.Web.Optimization.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\WebGrease.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\System.Data.SqlClient.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\System.Web.Optimization.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Newtonsoft.Json.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Antlr3.Runtime.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\es\System.Web.Optimization.resources.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\obj\Debug\sigac.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\obj\Debug\sigac.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\obj\Debug\sigac.csproj.CopyComplete
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\obj\Debug\sigac.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\sigac\obj\Debug\sigac.pdb
+C:\Users\LUISGM\Desktop\sigac\bin\sigac.dll.config
+C:\Users\LUISGM\Desktop\sigac\bin\sigac.dll
+C:\Users\LUISGM\Desktop\sigac\bin\sigac.pdb
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\csc.exe
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\csc.exe.config
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\csc.rsp
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\csi.exe
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\csi.exe.config
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\csi.rsp
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.AppContext.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Console.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.IO.Compression.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Net.Http.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Net.Sockets.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.ValueTuple.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\vbc.exe
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\vbc.exe.config
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\vbc.rsp
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\VBCSCompiler.exe
+C:\Users\LUISGM\Desktop\sigac\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LUISGM\Desktop\sigac\bin\Antlr3.Runtime.dll
+C:\Users\LUISGM\Desktop\sigac\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LUISGM\Desktop\sigac\bin\Newtonsoft.Json.dll
+C:\Users\LUISGM\Desktop\sigac\bin\System.Data.SqlClient.dll
+C:\Users\LUISGM\Desktop\sigac\bin\System.Web.Optimization.dll
+C:\Users\LUISGM\Desktop\sigac\bin\WebGrease.dll
+C:\Users\LUISGM\Desktop\sigac\bin\System.Data.SqlClient.xml
+C:\Users\LUISGM\Desktop\sigac\bin\System.Web.Optimization.xml
+C:\Users\LUISGM\Desktop\sigac\bin\Newtonsoft.Json.xml
+C:\Users\LUISGM\Desktop\sigac\bin\Antlr3.Runtime.pdb
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LUISGM\Desktop\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LUISGM\Desktop\sigac\bin\es\System.Web.Optimization.resources.dll
+C:\Users\LUISGM\Desktop\sigac\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\LUISGM\Desktop\sigac\obj\Debug\sigac.csproj.AssemblyReference.cache
+C:\Users\LUISGM\Desktop\sigac\obj\Debug\sigac.csproj.CoreCompileInputs.cache
+C:\Users\LUISGM\Desktop\sigac\obj\Debug\sigac.csproj.CopyComplete
+C:\Users\LUISGM\Desktop\sigac\obj\Debug\sigac.dll
+C:\Users\LUISGM\Desktop\sigac\obj\Debug\sigac.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\sigac.dll.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\sigac.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\sigac.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\csc.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\csc.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\csc.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\csi.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\csi.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\csi.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.AppContext.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Console.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.IO.Compression.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Net.Http.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Net.Sockets.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.ValueTuple.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\vbc.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\vbc.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\vbc.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\VBCSCompiler.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Antlr3.Runtime.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Newtonsoft.Json.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\System.Data.SqlClient.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\System.Web.Optimization.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\WebGrease.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\System.Data.SqlClient.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\System.Web.Optimization.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Newtonsoft.Json.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Antlr3.Runtime.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\es\System.Web.Optimization.resources.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\obj\Debug\sigac.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\obj\Debug\sigac.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\obj\Debug\sigac.csproj.CopyComplete
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\obj\Debug\sigac.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\otro\sigac\obj\Debug\sigac.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\sigac.dll.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\sigac.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\sigac.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\csc.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\csc.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\csc.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\csi.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\csi.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\csi.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.AppContext.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Console.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.IO.Compression.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Net.Http.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Net.Sockets.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.ValueTuple.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\vbc.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\vbc.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\vbc.rsp
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\VBCSCompiler.exe
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Antlr3.Runtime.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Newtonsoft.Json.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\System.Data.SqlClient.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\System.Web.Optimization.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\WebGrease.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\System.Data.SqlClient.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\System.Web.Optimization.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Newtonsoft.Json.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Antlr3.Runtime.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\es\System.Web.Optimization.resources.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\obj\Debug\sigac.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\obj\Debug\sigac.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\obj\Debug\sigac.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\obj\Debug\sigac.pdb
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Buffers.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Memory.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\AjaxControlToolkit.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\bin\NCalc.dll
+C:\Users\chris\OneDrive\Escritorio\academico\universidad\practica\otro\sigac\obj\Debug\sigac.csproj.Up2Date
