@@ -51,7 +51,7 @@
                             <div class="modal-header" style="border-bottom: 0px solid #e5e5e5;">
                                 
                                 <div class="avatar">
-                                <img src="/img/avatar.png" class="imgRedonda" alt="Avatar">
+                                <img src="/JordySa/sigac/blob/main/Login.aspx" class="imgRedonda" alt="Avatar">
                             </div>
 
                                 
