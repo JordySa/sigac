@@ -148,7 +148,7 @@
     <div class="card-header" id="headingThree1">
         <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
-                VINCULACION
+                VINCULACIÓN
 
             </button>
         </h2>
@@ -371,37 +371,6 @@
                                 <div class="tab-pane fade" id="moment_three" role="tabpanel" aria-labelledby="moment_three-tab">
                                     
             <div class="accordion" id="accordionFunction3">
-    <div class="card">
-        <div class="card-header" id="headingZero3">
-            <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseZero3" aria-expanded="true" aria-controls="collapseZero3">
-                    FUENTES DE INFORMACIÓN
-                </button>
-            </h2>
-        </div>
-        <div id="collapseZero3" class="collapse" aria-labelledby="headingZero3" data-parent="#accordionFunction3">
-            
-            <div class="card-body">
-    <div class="d-flex flex-row">
-        <div class="col-lg-4">
-            <asp:Literal ID="LiteralPlanificacionFNiMomento3" runat="server" Mode="PassThrough"></asp:Literal>
-        </div>
-
-        <div class="col-lg-4">
-            <asp:Literal ID="LiteralEjecucionFNiMomento3" runat="server" Mode="PassThrough"></asp:Literal>
-        </div>
-
-        <div class="col-lg-4">
-            <asp:Literal ID="LiteralResultadosFNiMomento3" runat="server" Mode="PassThrough"></asp:Literal>
-        </div>
-        </div>
-    </div>
-
-
-        </div>
-    </div>
-
-
 
     <div class="card">
         <div class="card-header" id="headingOne3">
