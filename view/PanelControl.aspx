@@ -35,7 +35,7 @@
     <div class="card-header" id="headingZero1">
         <h2 class="mb-0">
             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseZero1" aria-expanded="true" aria-controls="collapseZero1">
-                FUENTES DE INFORMACION
+                FUENTES DE INFORMACIÓN
             </button>
         </h2>
     </div>
@@ -111,7 +111,7 @@
     <div class="card-header" id="headingTwo1">
         <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="true" aria-controls="collapseTwo1">
-                INVESTIGACION
+                INVESTIGACIÓN
             </button>
         </h2>
     </div>
@@ -229,7 +229,7 @@
         <div class="card-header" id="headingZero2">
             <h2 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseZero2" aria-expanded="true" aria-controls="collapseZero2">
-                    FUENTES DE INFORMACION
+                    FUENTES DE INFORMACIÓN
                 </button>
             </h2>
         </div>
@@ -285,7 +285,7 @@
         <div class="card-header" id="headingTwo2">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                    INVESTIGACION
+                    INVESTIGACIÓN
                 </button>
             </h2>
         </div>
@@ -312,7 +312,7 @@
         <div class="card-header" id="headingThree2">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
-                    VINCULACION
+                    VINCULACIÓN
                 </button>
             </h2>
         </div>
@@ -375,7 +375,7 @@
         <div class="card-header" id="headingZero3">
             <h2 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseZero3" aria-expanded="true" aria-controls="collapseZero3">
-                    FUENTES DE INFORMACION
+                    FUENTES DE INFORMACIÓN
                 </button>
             </h2>
         </div>
@@ -435,7 +435,7 @@
         <div class="card-header" id="headingTwo3">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
-                    INVESTIGACION
+                    INVESTIGACIÓN
                 </button>
             </h2>
         </div>
@@ -463,7 +463,7 @@
         <div class="card-header" id="headingThree3">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
-                    VINCULACION
+                    VINCULACIÓN
                 </button>
             </h2>
         </div>
