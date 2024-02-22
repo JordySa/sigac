@@ -232,14 +232,14 @@ namespace sigac.view
         private void GenerarHTMLMomento1FInPlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 1;  
-            string dimension = "Planificacion";  
+            string dimension = "Planificación";  
 
 
             foreach (var indicador in indicadores)
@@ -270,14 +270,14 @@ namespace sigac.view
         private void GenerarHTMLMomento1FInEjecucion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Ejecucion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Ejecución</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -307,14 +307,14 @@ namespace sigac.view
         private void GenerarHTMLMomento1FInResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Resultado";
+            string dimension = "Resultados";
 
 
             foreach (var indicador in indicadores)
@@ -349,14 +349,14 @@ namespace sigac.view
         private void GenerarHTMLMomento1IndicDocentePlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -388,7 +388,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -413,7 +413,7 @@ namespace sigac.view
         private void GenerarHTMLMomento1IndicDocenteResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -446,14 +446,14 @@ namespace sigac.view
         private void GenerarHTMLMomento1IndicInvestigacionPlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -485,7 +485,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -510,7 +510,7 @@ namespace sigac.view
         private void GenerarHTMLMomento1IndicInvestigacionResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -551,7 +551,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -583,7 +583,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -608,7 +608,7 @@ namespace sigac.view
         private void GenerarHTMLMomento1IndicVinculacionResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -647,7 +647,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -679,7 +679,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 1;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -704,7 +704,7 @@ namespace sigac.view
         private void GenerarHTMLMomento1IndicCondicionInstitucionalResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -1403,14 +1403,14 @@ namespace sigac.view
         private void GenerarHTMLMomento2FInPlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
 
             foreach (var indicador in indicadores)
@@ -1441,14 +1441,14 @@ namespace sigac.view
         private void GenerarHTMLMomento2FInEjecucion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Ejecucion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Ejecución</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -1478,14 +1478,14 @@ namespace sigac.view
         private void GenerarHTMLMomento2FInResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Resultado";
+            string dimension = "Resultados";
 
 
             foreach (var indicador in indicadores)
@@ -1520,14 +1520,14 @@ namespace sigac.view
         private void GenerarHTMLMomento2IndicDocentePlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -1559,7 +1559,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -1584,7 +1584,7 @@ namespace sigac.view
         private void GenerarHTMLMomento2IndicDocenteResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -1617,14 +1617,14 @@ namespace sigac.view
         private void GenerarHTMLMomento2IndicInvestigacionPlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -1656,7 +1656,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -1681,7 +1681,7 @@ namespace sigac.view
         private void GenerarHTMLMomento2IndicInvestigacionResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -1722,7 +1722,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -1754,7 +1754,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -1779,7 +1779,7 @@ namespace sigac.view
         private void GenerarHTMLMomento2IndicVinculacionResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -1818,7 +1818,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -1850,7 +1850,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 2;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -1875,7 +1875,7 @@ namespace sigac.view
         private void GenerarHTMLMomento2IndicCondicionInstitucionalResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -2581,14 +2581,14 @@ namespace sigac.view
         private void GenerarHTMLMomento3IndicDocentePlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -2620,7 +2620,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -2645,7 +2645,7 @@ namespace sigac.view
         private void GenerarHTMLMomento3IndicDocenteResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -2678,14 +2678,14 @@ namespace sigac.view
         private void GenerarHTMLMomento3IndicInvestigacionPlanificacion(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificacion</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Planificación</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -2717,7 +2717,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -2742,7 +2742,7 @@ namespace sigac.view
         private void GenerarHTMLMomento3IndicInvestigacionResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -2783,7 +2783,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -2815,7 +2815,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -2840,7 +2840,7 @@ namespace sigac.view
         private void GenerarHTMLMomento3IndicVinculacionResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
@@ -2879,7 +2879,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Planificacion";
+            string dimension = "Planificación";
 
             foreach (var indicador in indicadores)
             {
@@ -2911,7 +2911,7 @@ namespace sigac.view
 
             // Variable para almacenar el valor de Momento
             int momento = 3;
-            string dimension = "Ejecucion";
+            string dimension = "Ejecución";
 
             foreach (var indicador in indicadores)
             {
@@ -2936,7 +2936,7 @@ namespace sigac.view
         private void GenerarHTMLMomento3IndicCondicionInstitucionalResultado(List<PanelViewModel> indicadores)
         {
             // Construir el HTML para los resultados
-            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultado</div>";
+            string html = "<div><div class='card-header' style='font-weight: bold;'>Resultados</div>";
 
             // Aplica el estilo white-space: nowrap; y max-width al div que contiene los nombres
             html += "<div style='max-width: 100%; overflow: hidden;'>";
