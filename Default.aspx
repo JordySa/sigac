@@ -24,7 +24,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
                         <a class="fa fa-home" href="http://www.utc.edu.ec" style="font-size:100px;"></a>
                         <br />
-                        Pagina principal UTC
+                        Página principal UTC
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
                         <a class="fa fa-tachometer" href="/view/PanelControl" style="font-size:100px;"></a>
@@ -34,7 +34,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
                         <a class="fa fa-users" href="/view/GestionUsuarios" style="font-size:100px;"></a>
                         <br />
-                        Gestion de Usuarios
+                        Gestión de Usuarios
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
                         <a class="fa fa-cogs" href="/view/GestionAplicacion" style="font-size:100px;"></a>
