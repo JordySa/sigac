@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgesti\u00F3ninformes\\viewsreporteindicadores\\reporteindicadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewscomponentes\\componentes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewscomponentes\\componentes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionaplicaciones\\viewscomponentes\\componentes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "view\\ViewsGestionAplicaciones\\ViewsComponentes\\Componentes.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-01T14:05:15.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T14:05:15.375Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-01T13:46:18.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T13:46:18.049Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "view\\PanelControl.aspx.cs",
               "ViewState": "AQIAAN4AAAAAAAAAAAAowPgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T00:34:25.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T00:34:25.895Z"
             },
             {
               "$type": "Document",

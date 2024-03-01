@@ -11,7 +11,7 @@
                     <h2 class="mb-4">GESTIÓN DE COMPONENTES</h2>
                     <div class="vertical-space">                        
     
-                        <iframe title="sigac" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=24748a50-89c2-4fc6-a4b6-26a81b9dbdc5&autoAuth=true&ctid=136a0da6-6e34-4ca2-933d-36fa7895468e" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="sigac" style="width:100%; height:100%; " src="https://app.powerbi.com/reportEmbed?reportId=24748a50-89c2-4fc6-a4b6-26a81b9dbdc5&autoAuth=true&ctid=136a0da6-6e34-4ca2-933d-36fa7895468e" frameborder="0" allowFullScreen="true"></iframe>
 
                     </div>
                 </div>
