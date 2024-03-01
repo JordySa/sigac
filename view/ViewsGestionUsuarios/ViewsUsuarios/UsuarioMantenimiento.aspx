@@ -85,7 +85,7 @@
 
 
         <div class="mb-4-custom">
-            <label class="form-label">estado:</label>
+            <label class="form-label">Estado:</label>
                 <asp:DropDownList runat="server" CssClass="form-control" ID="ddlEst" required="true">
             <asp:ListItem Text="-- Seleccione --" Value="" />
             <asp:ListItem Text="Activo" Value="1" />
