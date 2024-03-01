@@ -1,4 +1,4 @@
-﻿using sigac.view.ViewsGestionAplicaciones.ViewsPeriodicidades;
+using sigac.view.ViewsGestionAplicaciones.ViewsPeriodicidades;
 using System;
 using System.Configuration;
 using System.Data.SqlClient;
@@ -147,9 +147,7 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsVariables
                 UPDATE dbo.GC_VARIAB 
                 SET strNombre_variab = @Nombre, 
                     strDescripcion_variab = @Descripcion, 
-                    strOrden_variab = @Orden, 
-                    dtFechaMod_variab = @FechaMod,
-                    strCod_period = @IdPeriod
+                    strOrden_variab = @Orden
                 WHERE strCod_variab = @ID";
 
                 using (SqlConnection cn = new SqlConnection(connectionString))
