@@ -85,7 +85,7 @@
     <div class="col-md-6">
   
            <div class="mb-4-custom">
-       <label class="form-label">Funcion :</label>
+       <label class="form-label">Función :</label>
        <asp:DropDownList runat="server" CssClass="form-control" ID="ddlfunc" required="true" AppendDataBoundItems="true" DataSourceID="SqlDataSourceFuncionalidad" DataTextField="strNombre_func" DataValueField="strCod_func">
            <asp:ListItem Text="-- Seleccione --" Value="" required="true" />
        </asp:DropDownList>
@@ -170,7 +170,7 @@
 
 
 <div class="mb-4-custom">
-    <label class="form-label">Fuente de Informacion:</label>
+    <label class="form-label">Fuente de Información:</label>
 
     <asp:ListBox runat="server" CssClass="form-control" ID="lbFni" SelectionMode="Multiple" ondblclick="deseleccionarElementoFni()">
     </asp:ListBox>
