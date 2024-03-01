@@ -17,7 +17,7 @@
                 <div class="container-fluid" >
                     
 
-                    <h2 class="mb-4">GESTION DE MOMENTOS</h2>
+                    <h2 class="mb-4">GESTIÓN DE MOMENTOS</h2>
                     <div class="vertical-space">                        
     
                         <asp:Button runat="server" class="btn btn-success" ID="BtnCreate" OnClick="BtnCreate_Click" Text="Agregar" />
