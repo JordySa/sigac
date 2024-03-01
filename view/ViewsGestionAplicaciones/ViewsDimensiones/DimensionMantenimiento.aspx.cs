@@ -26,21 +26,21 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsDimensiones
                     switch (sOpc)
                     {
                         case "C":
-                            this.Lbltitulo.Text = "Ingresar nuevo Dimension";
+                            this.Lbltitulo.Text = "Ingresar nueva Dimensión";
                             this.BtnCreate.Visible = true;
                             // Generar un nuevo UUID para la creación
                             this.tbid.Text = Guid.NewGuid().ToString();
                             break;
                         case "R":
-                            this.Lbltitulo.Text = "Vista Dimension";
+                            this.Lbltitulo.Text = "Vista Dimensión";
                             break;
                         case "U":
-                            this.Lbltitulo.Text = "Actualizar Dimension";
+                            this.Lbltitulo.Text = "Actualizar Dimensión";
                             this.tbid.ReadOnly = true;
                             this.BtnUpdate.Visible = true;
                             break;
                         case "D":
-                            this.Lbltitulo.Text = "Eliminar Dimension";
+                            this.Lbltitulo.Text = "Eliminar Dimensión";
                             this.tbid.ReadOnly = true;
                             this.BtnDelete.Visible = true;
                             break;
@@ -129,15 +129,15 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsDimensiones
             try
             {
                 string update = $"UPDATE dbo.GC_DIMEN SET strNombre_dimen = '{this.tbnombre.Text}', strDescripcion_dimen = '{this.tbdescripcion.Text}', strOrden_dimem = '{this.tborden.Text}' WHERE strCod_dimen = '{this.tbid.Text}'";
-            cn.Open();
-            using (SqlCommand command = new SqlCommand(update, cn))
-            {
-                command.ExecuteNonQuery();
-            }
-            cn.Close();
+                cn.Open();
+                using (SqlCommand command = new SqlCommand(update, cn))
+                {
+                    command.ExecuteNonQuery();
+                }
+                cn.Close();
 
-            // Mostrar una alerta SweetAlert2 después de guardar los datos
-            string script = @"<script>
+                // Mostrar una alerta SweetAlert2 después de guardar los datos
+                string script = @"<script>
                             Swal.fire({
                                 title: 'Datos guardados',
                                 text: 'Los datos se han guardado exitosamente.',
@@ -149,8 +149,8 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsDimensiones
                                 }
                             });
                          </script>";
-            ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
-        }
+                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
+            }
             catch (Exception ex)
             {
                 // Manejar cualquier excepción y mostrar un mensaje de error
@@ -161,11 +161,11 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsDimensiones
                                         confirmButtonText: 'OK'
                                     );
                                  </script>";
-                 ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
             }
         }
 
-    protected void BtnDelete_Click(object sender, EventArgs e)
+        protected void BtnDelete_Click(object sender, EventArgs e)
         {
             string delete = $"DELETE FROM dbo.GC_DIMEN WHERE strCod_dimen = '{this.tbid.Text}'";
             cn.Open();

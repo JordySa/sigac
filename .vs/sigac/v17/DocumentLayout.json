@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\sigac\\view\\panelcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\panelcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PanelControl.aspx",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\view\\PanelControl.aspx",
+              "RelativeDocumentMoniker": "view\\PanelControl.aspx",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\view\\PanelControl.aspx",
+              "RelativeToolTip": "view\\PanelControl.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-01T00:18:53.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -126,15 +126,45 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsComponentes
 
         protected void BtnUpdate_Click(object sender, EventArgs e)
         {
-            string update = $"UPDATE dbo.GC_COMP SET strNombre_comp = '{this.tbnombre.Text}', strDescripcion_comp = '{this.tbdescripcion.Text}', strOrden_comp = '{this.tborden.Text}' WHERE strCod_comp = '{this.tbid.Text}'";
-            cn.Open();
-            using (SqlCommand command = new SqlCommand(update, cn))
+            try
             {
-                command.ExecuteNonQuery();
+                string update = $"UPDATE dbo.GC_COMP SET strNombre_comp = '{this.tbnombre.Text}', strDescripcion_comp = '{this.tbdescripcion.Text}', strOrden_comp = '{this.tborden.Text}' WHERE strCod_comp = '{this.tbid.Text}'";
+                cn.Open();
+                using (SqlCommand command = new SqlCommand(update, cn))
+                {
+                    command.ExecuteNonQuery();
+                }
+                cn.Close();
+
+                // Mostrar una alerta SweetAlert2 después de guardar los datos
+                string script = @"<script>
+                        Swal.fire({
+                            title: 'Datos guardados',
+                            text: 'Los datos se han guardado exitosamente.',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = 'Componentes.aspx';
+                            }
+                        });
+                     </script>";
+                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
             }
-            cn.Close();
-            Response.Redirect("Componentes.aspx");
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción y mostrar un mensaje de error
+                string errorScript = $@"<script>
+                               Swal.fire(title: 'Error',
+                                  text: 'Hubo un error al guardar los datos. Detalles: {ex.Message}',
+                                  icon: 'error',
+                                  confirmButtonText: 'OK'
+                              );
+                           </script>";
+                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+            }
         }
+
 
         protected void BtnDelete_Click(object sender, EventArgs e)
         {

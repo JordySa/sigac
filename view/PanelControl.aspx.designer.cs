@@ -294,33 +294,6 @@ namespace sigac.view
         protected global::System.Web.UI.WebControls.Literal LiteralCondicionInstitucionalResultadoIndicMomento2;
 
         /// <summary>
-        /// Control LiteralPlanificacionFNiMomento3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LiteralPlanificacionFNiMomento3;
-
-        /// <summary>
-        /// Control LiteralEjecucionFNiMomento3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LiteralEjecucionFNiMomento3;
-
-        /// <summary>
-        /// Control LiteralResultadosFNiMomento3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LiteralResultadosFNiMomento3;
-
-        /// <summary>
         /// Control LiteralDocentePlanificacionIndicMomento3.
         /// </summary>
         /// <remarks>
