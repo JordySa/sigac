@@ -9,7 +9,7 @@
         <div class="contenido" style="background-color: #EBEDEF;">
             <div class="main">
                 <div class="container-fluid" >
-                    <h2 class="mb-4">GESTION DE INDICADORES</h2>
+                    <h2 class="mb-4">GESTIÓN DE INDICADORES</h2>
                     <div class="vertical-space">                        
     
                         <asp:Button runat="server" class="btn btn-success" ID="BtnCreate" OnClick="BtnCreate_Click" Text="Agregar" />
