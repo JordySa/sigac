@@ -75,7 +75,7 @@
 
 
         <div class="mb-4-custom">
-            <label class="form-label">estado:</label>
+            <label class="form-label">Estado:</label>
                 <asp:DropDownList runat="server" CssClass="form-control" ID="ddlEst" required="true">
             <asp:ListItem Text="-- Seleccione --" Value="" />
             <asp:ListItem Text="Activo" Value="1" />
@@ -95,7 +95,7 @@
          </div>
 
          <div class="mb-4-custom">
-             <label class="form-label">Fuentes de informacion:</label>
+             <label class="form-label">Fuentes de Información:</label>
              <asp:DropDownList runat="server" CssClass="form-control" ID="ddlFni" required="true" AppendDataBoundItems="true" DataSourceID="SqlDataSourceFni" DataTextField="strNombre_fni" DataValueField="strCod_fni">
                  <asp:ListItem Text="-- Seleccione --" Value="" required="true" />
              </asp:DropDownList>
