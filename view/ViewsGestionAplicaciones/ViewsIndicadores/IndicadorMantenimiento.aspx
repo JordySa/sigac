@@ -170,7 +170,7 @@
 
 
 <div class="mb-4-custom">
-    <label class="form-label">Fuente de Informacion:</label>
+    <label class="form-label">Fuente de Información:</label>
 
     <asp:ListBox runat="server" CssClass="form-control" ID="lbFni" SelectionMode="Multiple" ondblclick="deseleccionarElementoFni()">
     </asp:ListBox>
