@@ -47,12 +47,12 @@
                         <br />
                         Gestión de Procesos
                     </div>
-                    <!--
                     <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
                         <a class="fa fa-file-pdf-o" href="/view/GestionInformes" style="font-size:100px;"></a>
                         <br />
                         Gestión de Informes
                     </div>
+                    <!--
                     <div class="col-lg-3 col-md-3 col-sm-6 col-md-auto">
                         <a class="fa fa-user" href="/view/Perfil" style="font-size:100px;"></a>
                         <br />
