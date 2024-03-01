@@ -45,7 +45,7 @@
 
         
         <div class="mb-4-custom">
-            <label class="form-label">Denominacion:</label>
+            <label class="form-label">Denominación:</label>
             <asp:TextBox runat="server" CssClass="form-control" ID="tbdenominacion"></asp:TextBox>
         </div>
         
