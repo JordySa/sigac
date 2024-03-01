@@ -25,21 +25,21 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsFunciones
                     switch (sOpc)
                     {
                         case "C":
-                            this.Lbltitulo.Text = "Ingresar nuevo Funcion";
+                            this.Lbltitulo.Text = "Ingresar nueva Función";
                             this.BtnCreate.Visible = true;
                             // Generar un nuevo UUID para la creación
                             this.tbid.Text = Guid.NewGuid().ToString();
                             break;
                         case "R":
-                            this.Lbltitulo.Text = "Vista Funcion";
+                            this.Lbltitulo.Text = "Vista Función";
                             break;
                         case "U":
-                            this.Lbltitulo.Text = "Actualizar Funcion";
+                            this.Lbltitulo.Text = "Actualizar Función";
                             this.tbid.ReadOnly = true;
                             this.BtnUpdate.Visible = true;
                             break;
                         case "D":
-                            this.Lbltitulo.Text = "Eliminar Funcion";
+                            this.Lbltitulo.Text = "Eliminar Función";
                             this.tbid.ReadOnly = true;
                             this.BtnDelete.Visible = true;
                             break;
@@ -88,13 +88,21 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsFunciones
             try
             {
                 // Lógica para insertar datos
-                string insert = $"INSERT INTO dbo.GC_FUNC VALUES ('{this.tbid.Text.ToString()}', '{this.tbnombre.Text.ToString()}', '{this.tbdescripcion.Text.ToString()}', '{this.tborden.Text.ToString()}', GETDATE(), '', '', '', '', '', '', GETDATE(), '', '', '', '', '', 0, NULL)";
-                cn.Open();
+                string insert = "INSERT INTO dbo.GC_FUNC VALUES (@id, @nombre, @descripcion, @orden, GETDATE(), '', '', '', '', '', '', GETDATE(), '', '', '', '', '', 0, NULL)";
+
                 using (SqlCommand command = new SqlCommand(insert, cn))
                 {
+                    command.Parameters.AddWithValue("@id", tbid.Text);
+                    command.Parameters.AddWithValue("@nombre", tbnombre.Text);
+                    command.Parameters.AddWithValue("@descripcion", tbdescripcion.Text);
+                    command.Parameters.AddWithValue("@orden", tborden.Text);
+
+                    // Add other parameters as needed
+
+                    cn.Open();
                     command.ExecuteNonQuery();
+                    cn.Close();
                 }
-                cn.Close();
 
                 // Mostrar una alerta SweetAlert2 después de guardar los datos
                 string script = @"<script>
@@ -130,19 +138,22 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsFunciones
             try
             {
                 // Supongamos que strCod_func es la columna que identifica de manera única cada registro
-                string update = $@"
-            UPDATE dbo.GC_FUNC 
-            SET strNombre_func = '{this.tbnombre.Text}', 
-                strDescripcion_func = '{this.tbdescripcion.Text}', 
-                strOrden_func = '{this.tborden.Text}'
-            WHERE strCod_func = '{this.tbid.Text}'";
+                string update = "UPDATE dbo.GC_FUNC SET strNombre_func = @nombre, strDescripcion_func = @descripcion, strOrden_func = @orden WHERE strCod_func = @id";
 
-                cn.Open();
                 using (SqlCommand command = new SqlCommand(update, cn))
                 {
+                    command.Parameters.AddWithValue("@id", tbid.Text);
+                    command.Parameters.AddWithValue("@nombre", tbnombre.Text);
+                    command.Parameters.AddWithValue("@descripcion", tbdescripcion.Text);
+                    command.Parameters.AddWithValue("@orden", tborden.Text);
+
+                    // Add other parameters as needed
+
+                    cn.Open();
                     command.ExecuteNonQuery();
+                    cn.Close();
                 }
-                cn.Close();
+
 
                 // Mostrar una alerta SweetAlert2 después de guardar los datos
                 string script = @"<script>

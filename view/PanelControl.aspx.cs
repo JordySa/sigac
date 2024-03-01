@@ -105,10 +105,6 @@ namespace sigac.view
 
 
 
-
-
-
-
             // momento 2 fuente de informacion
 
             List<PanelViewModel> Momento2FInPlanificacion = ConsultarMomento2FInPlanificacion();
@@ -222,6 +218,8 @@ namespace sigac.view
 
             List<PanelViewModel> Momento3IndicCondicionInstitucionalResultado = ConsultarMomento3IndicCondicionInstitucionalResultado();
             GenerarHTMLMomento3IndicCondicionInstitucionalResultado(Momento3IndicCondicionInstitucionalResultado);
+
+
 
         }
 
@@ -371,7 +369,6 @@ namespace sigac.view
                     html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                    html += "</div>";
             }
 
             html += "</div></div>";
@@ -403,7 +400,6 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
             }
 
             html += "</div></div>";
@@ -435,7 +431,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -468,7 +464,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -500,7 +496,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -532,7 +528,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -566,7 +562,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -598,7 +594,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -630,7 +626,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -662,7 +658,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -694,7 +690,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -726,7 +722,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1398,6 +1394,20 @@ namespace sigac.view
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Momento 2 Fuente de Informacion//
 
 
@@ -1542,7 +1552,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1574,7 +1584,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1606,7 +1616,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1639,7 +1649,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1671,7 +1681,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1703,7 +1713,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1737,7 +1747,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1769,7 +1779,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1801,7 +1811,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1833,7 +1843,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1865,7 +1875,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -1897,7 +1907,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2700,7 +2710,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2732,7 +2742,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2764,7 +2774,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2798,7 +2808,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2830,7 +2840,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2862,7 +2872,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2894,7 +2904,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2926,7 +2936,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2958,7 +2968,7 @@ namespace sigac.view
                 html += $"<button type='button' class='btn btn-primary btn-xs dt-action' onclick='BtnView_ClickIndic( \"{indicador.NombreIndic}\", \"{indicador.NombrePadre}\", \"{indicador.NombreFNi}\", \"{indicador.Variables}\", \"{indicador.Formula}\", \"{dimension}\", {momento})'><i class=\"fa fa-eye\" aria-hidden=\"true\"></i></button>";
 
 
-                html += "</div>";
+
             }
 
             html += "</div></div>";
@@ -2969,7 +2979,7 @@ namespace sigac.view
 
 
 
-       
+
 
         //Docente Indicador Momento 3 //
         //Docente
@@ -3488,10 +3498,6 @@ namespace sigac.view
 
             return lista;
         }
-
-
-
-
 
 
 

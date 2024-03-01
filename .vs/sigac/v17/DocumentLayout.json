@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\sigac\\view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\sigac\\view\\panelcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\panelcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PanelControl.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\view\\PanelControl.aspx.cs",
+              "RelativeDocumentMoniker": "view\\PanelControl.aspx.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\view\\PanelControl.aspx.cs",
+              "RelativeToolTip": "view\\PanelControl.aspx.cs",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAowAMBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T00:34:25.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PanelControl.aspx",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\sigac\\view\\PanelControl.aspx",
               "RelativeDocumentMoniker": "view\\PanelControl.aspx",

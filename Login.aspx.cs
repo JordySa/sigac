@@ -54,11 +54,12 @@ namespace sigac
             using (SqlCommand command = new SqlCommand(queryStringPass, cn))
             {
                 pass = command.ExecuteScalar() as string;
-                string encriptado = Helper.Encrypt.DecryptCadena(pass, Helper.Encrypt.KeySecret);
-                if (!string.IsNullOrEmpty(pass) && contraseña.Trim() != encriptado.Trim())
-                {
+                if (string.IsNullOrEmpty(pass) )
                     return false;
-                }
+                
+                string encriptado = Helper.Encrypt.DecryptCadena(pass, Helper.Encrypt.KeySecret);
+                if (contraseña.Trim() != encriptado.Trim())
+                    return false;
             }
 
             cn.Close();
