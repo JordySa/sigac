@@ -7,7 +7,7 @@
         <div class="contenido" style="background-color: #EBEDEF;">
             <div class="main">
                 <div class="container" style="width:100%; background-color: #fff; padding:12px; ">
-                    <h2 class="mb-4">GESTION DE FUENTES DE PERIODICIDADES</h2>
+                    <h2 class="mb-4">GESTIÓN DE FUENTES DE PERIODICIDADES</h2>
                     <div class="vertical-space">                        
     
                         <asp:Button runat="server" class="btn btn-success" ID="BtnCreate" OnClick="BtnCreate_Click" Text="Agregar" />
@@ -16,7 +16,7 @@
                             <Columns>
                                 <asp:BoundField DataField="Id" HeaderText="ID" SortExpression="Id" ItemStyle-CssClass="oculto" />
                                 <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
-                                <asp:BoundField DataField="Descripcion" HeaderText="Descripción" SortExpression="Descripcion" />
+                                <asp:BoundField DataField="Descripción" HeaderText="Descripción" SortExpression="Descripcion" />
                                 <asp:BoundField DataField="Orden" HeaderText="Orden" SortExpression="Orden" />
                                 <asp:TemplateField HeaderText="Acciones">
                                     <ItemTemplate>
