@@ -1,4 +1,4 @@
-﻿<%@ Page Title="IndicadorMantenimiento" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="IndicadorMantenimiento.aspx.cs" Inherits="sigac.view.ViewsGestionAplicaciones.ViewsIndicadores.IndicadorMantenimiento" %>
+<%@ Page Title="IndicadorMantenimiento" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="IndicadorMantenimiento.aspx.cs" Inherits="sigac.view.ViewsGestionAplicaciones.ViewsIndicadores.IndicadorMantenimiento" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
@@ -85,7 +85,7 @@
     <div class="col-md-6">
   
            <div class="mb-4-custom">
-       <label class="form-label">Función :</label>
+       <label class="form-label">Funcion :</label>
        <asp:DropDownList runat="server" CssClass="form-control" ID="ddlfunc" required="true" AppendDataBoundItems="true" DataSourceID="SqlDataSourceFuncionalidad" DataTextField="strNombre_func" DataValueField="strCod_func">
            <asp:ListItem Text="-- Seleccione --" Value="" required="true" />
        </asp:DropDownList>
@@ -160,7 +160,7 @@
     <label class="form-label">Variable:</label>
     <asp:ListBox runat="server" CssClass="form-control" ID="lbVariab" SelectionMode="Multiple" ondblclick="deseleccionarElementoVariab()">
     </asp:ListBox>
-<asp:DropDownList runat="server" CssClass="form-control" ID="ddlvariab" AppendDataBoundItems="true" DataSourceID="SqlDataSourceVariab" DataTextField="strNombre_variab" DataValueField="strNombre_variab" onchange="seleccionarElementoVariab()">
+<asp:DropDownList runat="server" CssClass="form-control" ID="ddlvariab" AppendDataBoundItems="true" DataSourceID="SqlDataSourceVariab" DataTextField="strDescripcion_variab" DataValueField="strNombre_variab" onchange="seleccionarElementoVariab()">
     <asp:ListItem Text="-- Seleccione --" Value="" />
 </asp:DropDownList>
 
@@ -170,7 +170,7 @@
 
 
 <div class="mb-4-custom">
-    <label class="form-label">Fuente de Información:</label>
+    <label class="form-label">Fuente de Informacion:</label>
 
     <asp:ListBox runat="server" CssClass="form-control" ID="lbFni" SelectionMode="Multiple" ondblclick="deseleccionarElementoFni()">
     </asp:ListBox>
@@ -311,7 +311,7 @@
     <asp:SqlDataSource ID="SqlDataSourceComponente" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_comp, strNombre_comp FROM GC_COMP"></asp:SqlDataSource>
    
     <asp:SqlDataSource ID="SqlDataSourcePeriodicidad" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_period, strNombre_period FROM GC_PERIOD"></asp:SqlDataSource>
-    <asp:SqlDataSource ID="SqlDataSourceVariab" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_variab, strNombre_variab FROM GC_VARIAB"></asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSourceVariab" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_variab, strDescripcion_variab, strNombre_variab FROM GC_VARIAB"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSourceFni" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_fni, strNombre_fni FROM GC_FNI"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSourceEvid" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_evid, strNombre_evid FROM GC_EVID"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSourcePadre" runat="server" ConnectionString="<%$ ConnectionStrings:SQLConnectionString %>" SelectCommand="SELECT strCod_padre, strNombre_padre FROM GC_PADRE"></asp:SqlDataSource>
