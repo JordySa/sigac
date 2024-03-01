@@ -73,7 +73,9 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
                                 NombrePadre = reader["strPadre_carga_fin"].ToString(),
                                 File = reader["strFile_carga_fin"].ToString(),
                                 ProyectoFNi = reader["strProyecto_fin"].ToString(),
-                                Momento = reader["strMomento_carga_fin"].ToString()
+                                Momento = reader["strMomento_carga_fin"].ToString(),
+                                Dimencion = reader["strDimencion"].ToString()
+
                             };
 
                             listaFuenteIndormacion.Add(FuenteIndormacion);
@@ -158,6 +160,9 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
 
         [JsonProperty("strFile_carga_fin")]
         public string Momento { get; set; }
+
+        [JsonProperty("strDimencion")]
+        public string Dimencion { get; set; }
 
 
 

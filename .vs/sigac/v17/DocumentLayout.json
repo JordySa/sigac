@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgesti\u00F3ninformes\\viewsreporteindicadores\\reporteindicadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgesti\u00F3ninformes\\viewsreporteindicadores\\reporteindicadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewscomponentes\\componentes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionaplicaciones\\viewscomponentes\\componentes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\panelcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\panelcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\panelcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewscomponentes\\componentemantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionaplicaciones\\viewscomponentes\\componentemantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +34,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Componentes.aspx",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsComponentes\\Componentes.aspx",
-              "RelativeDocumentMoniker": "view\\ViewsGestionAplicaciones\\ViewsComponentes\\Componentes.aspx",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsComponentes\\Componentes.aspx",
-              "RelativeToolTip": "view\\ViewsGestionAplicaciones\\ViewsComponentes\\Componentes.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-01T14:05:15.375Z"
+              "DocumentIndex": 0,
+              "Title": "GestionIndicadoresMantenimiento.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "RelativeDocumentMoniker": "view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "RelativeToolTip": "view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAmwOUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T18:23:15.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReporteIndicadores.aspx",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGesti\u00F3nInformes\\ViewsReporteIndicadores\\ReporteIndicadores.aspx",
-              "RelativeDocumentMoniker": "view\\ViewsGesti\u00F3nInformes\\ViewsReporteIndicadores\\ReporteIndicadores.aspx",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGesti\u00F3nInformes\\ViewsReporteIndicadores\\ReporteIndicadores.aspx",
-              "RelativeToolTip": "view\\ViewsGesti\u00F3nInformes\\ViewsReporteIndicadores\\ReporteIndicadores.aspx",
+              "DocumentIndex": 1,
+              "Title": "GestionIndicadoresMantenimiento.aspx",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx",
+              "RelativeDocumentMoniker": "view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx",
+              "RelativeToolTip": "view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-01T14:04:56.418Z",
+              "WhenOpened": "2024-03-01T18:23:01.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\Default.aspx",
-              "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\Default.aspx",
-              "RelativeToolTip": "Default.aspx",
+              "Title": "ComponenteMantenimiento.aspx",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsComponentes\\ComponenteMantenimiento.aspx",
+              "RelativeDocumentMoniker": "view\\ViewsGestionAplicaciones\\ViewsComponentes\\ComponenteMantenimiento.aspx",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsComponentes\\ComponenteMantenimiento.aspx",
+              "RelativeToolTip": "view\\ViewsGestionAplicaciones\\ViewsComponentes\\ComponenteMantenimiento.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-01T13:46:18.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PanelControl.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\PanelControl.aspx.cs",
-              "RelativeDocumentMoniker": "view\\PanelControl.aspx.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\PanelControl.aspx.cs",
-              "RelativeToolTip": "view\\PanelControl.aspx.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAowPgAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T00:34:25.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PanelControl.aspx",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\PanelControl.aspx",
-              "RelativeDocumentMoniker": "view\\PanelControl.aspx",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\PanelControl.aspx",
-              "RelativeToolTip": "view\\PanelControl.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-01T00:18:53.888Z"
+              "WhenOpened": "2024-03-01T18:12:39.342Z",
+              "EditorCaption": ""
             }
           ]
         }

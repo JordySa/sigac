@@ -7,7 +7,7 @@
       <form id="form1" runat="server">
         <div class="contenido" style="background-color: #EBEDEF;">
             <div class="main">
-                <div class="container" style="width:100%; background-color: #fff; padding:5%;">
+                <div class="container-fluid" >
 
 
 
@@ -16,7 +16,6 @@
                     </div>
                     <div class="vertical-space">                        
     
-                        <asp:Button runat="server" class="btn btn-success" ID="BtnCreate" OnClick="BtnCreate_Click" Text="Agregar" />
 
                         <asp:GridView ID="GridViewFuenteIndormacion" runat="server" CssClass="table table-striped table-bordered descarga" AutoGenerateColumns="false">
                             <Columns>

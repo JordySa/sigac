@@ -130,13 +130,13 @@
  
      <a class="nav-link dropdown-toggle"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
-        Gestión de Informes
+        Kpi Indicadores
 
            </a>
 
            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
       
-<a class="dropdown-item" href="https://app.powerbi.com/reportEmbed?reportId=24748a50-89c2-4fc6-a4b6-26a81b9dbdc5&autoAuth=true&ctid=136a0da6-6e34-4ca2-933d-36fa7895468e" target="_blank">Reporte Indicadores</a>
+<a class="dropdown-item" href="/view/ViewsGestiónInformes/ViewsReporteIndicadores/ReporteIndicadores" target="_blank">Kpi Indicadores</a>
 
            </div>
          </li>

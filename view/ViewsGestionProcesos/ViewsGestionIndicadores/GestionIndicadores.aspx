@@ -12,7 +12,6 @@
                     <h2 class="mb-4">GESTIÓN DE INDICADORES</h2>
                     <div class="vertical-space">                        
     
-                        <asp:Button runat="server" class="btn btn-success" ID="BtnCreate" OnClick="BtnCreate_Click" Text="Agregar" />
 
                         <asp:GridView ID="GridViewGestionIndicador" runat="server" CssClass="table table-striped table-bordered descarga" AutoGenerateColumns="false">
                             <Columns>

@@ -18,7 +18,7 @@ namespace sigac.view.ViewsGestionProcesos.ViewsGestionIndicadores
 {
     public partial class GestionIndicadoresMantenimiento : System.Web.UI.Page
     {
-private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/main/file-source/";
+private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion\sigac\file-source";
 
         readonly SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLConnectionString"].ConnectionString);
         public static string sID = "-1";
@@ -184,15 +184,6 @@ private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/m
                         sOpc = Request.QueryString["op"].ToString();
                         switch (sOpc)
                         {
-                            case "C":
-                                this.Lbltitulo.Text = "Ingresar nuevo Gestion Indicador";
-                                this.BtnCreate.Visible = true;
-                                // Generar un nuevo UUID para la creación
-                                this.tbid.Text = Guid.NewGuid().ToString();
-                                this.BtnReturnAdmin.Visible = true;
-                                this.BtnReturn.Visible = false;
-
-                                break;
                             case "R":
                                 this.Lbltitulo.Text = "Vista Gestion Indicador";
                                 this.BtnReturnAdmin.Visible = true;
@@ -332,7 +323,7 @@ private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/m
             string nombreArchivo = lnkDescargar.CommandArgument;
 
             // Ruta completa del archivo a descargar
-            string rutaArchivo = Path.Combine(@"https://raw.githubusercontent.com/JordySa/sigac/main/file-source/", nombreArchivo);
+            string rutaArchivo = Path.Combine(@"C:\Users\chris\OneDrive\Escritorio\git\correccion\sigac", nombreArchivo);
 
             // Obtener la longitud del archivo
             FileInfo infoArchivo = new FileInfo(rutaArchivo);

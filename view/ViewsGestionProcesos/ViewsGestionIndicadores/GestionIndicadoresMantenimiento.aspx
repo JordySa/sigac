@@ -567,7 +567,7 @@
         }
         function redirectToPageAdmin() {
             // Agrega aquí la URL a la que quieres redirigir
-            var url = '/view/ViewsGestionProcesos/ViewsFuenteInformacion/FuenteInformacion.aspx';
+            var url = '/view/ViewsGestionProcesos/ViewsGestionIndicadores/GestionIndicadores.aspx';
 
             // Realiza la redirección en JavaScript
             window.location.href = url;

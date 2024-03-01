@@ -19,7 +19,7 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
         public static string sOpc = "";
 
 
-private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/main/file-source/";
+private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion\sigac\file-source";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -281,7 +281,8 @@ private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/m
                             NombrePadre = reader["strPadre_carga_fin"].ToString(),
                             File = reader["strFile_carga_fin"].ToString(),
                             ProyectoFNi = reader["strProyecto_fin"].ToString(),
-                            Momento = reader["strMomento_carga_fin"].ToString()
+                            Momento = reader["strMomento_carga_fin"].ToString(),
+                            Dimencion = reader["strDimencion"].ToString()
                         };
                     }
                 }
@@ -294,6 +295,7 @@ private string rutaCarpeta = @"https://raw.githubusercontent.com/JordySa/sigac/m
                 this.TxtNombreFNi.Text = funcion.NombreFNi;
                 this.TxtMomento.Text = funcion.Momento;
                 this.TxtNombreProyecto.Text = funcion.ProyectoFNi;
+                this.TxtDimension.Text = funcion.Dimencion;
 
 
                 // Obtener la lista de nombres de archivos desde el campo File en la base de datos
