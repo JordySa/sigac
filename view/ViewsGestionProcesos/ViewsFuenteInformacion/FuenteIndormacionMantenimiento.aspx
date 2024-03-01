@@ -49,7 +49,7 @@
     <asp:Label  runat="server" ID="TxtNombreFNi"  BorderWidth="0" ></asp:Label>
 </div>
                 <div>
-            <label class="form-label">Dimension:</label>
+            <label class="form-label">Dimensión:</label>
     <asp:TextBox runat="server" ID="TxtDimension" ReadOnly="true" BorderWidth="0" CssClass="label-like"></asp:TextBox>
 </div>
             <!--
