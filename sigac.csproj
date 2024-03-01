@@ -192,6 +192,7 @@
     <Content Include="style\plantilla.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="view\GestionAplicacion.aspx" />
+    <Content Include="view\GestionInformes.aspx" />
     <Content Include="view\GestionProcesos.aspx" />
     <Content Include="view\GestionUsuarios.aspx" />
     <Content Include="view\PanelControl.aspx" />
@@ -300,6 +301,13 @@
     </Compile>
     <Compile Include="view\GestionAplicacion.aspx.designer.cs">
       <DependentUpon>GestionAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\GestionInformes.aspx.cs">
+      <DependentUpon>GestionInformes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\GestionInformes.aspx.designer.cs">
+      <DependentUpon>GestionInformes.aspx</DependentUpon>
     </Compile>
     <Compile Include="view\GestionProcesos.aspx.cs">
       <DependentUpon>GestionProcesos.aspx</DependentUpon>
