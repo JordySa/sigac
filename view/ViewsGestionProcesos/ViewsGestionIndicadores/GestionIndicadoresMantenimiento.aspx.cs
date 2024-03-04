@@ -220,8 +220,6 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
                     }
                 }
             }
-
-
             List<FuenteIndormacionViewModel> listaCargasFni = CargarDatosFNi();
 
             if (listaCargasFni.Count > 0)
@@ -408,7 +406,9 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
                             ProyectoFNi = reader["strProyecto_gestion_indic"].ToString(),
                             Momento = reader["strMomento_gestion_indic"].ToString(),
                             Variables = reader["strVariables_gestion_indic"].ToString(),
-                            DatosVariables = reader["Variables_gestion_indic"].ToString()
+                            DatosVariables = reader["Variables_gestion_indic"].ToString(),
+                            Formula = reader["Formula_gestion_indic"].ToString(),
+                            Dimension = reader["strUser_Log"].ToString()
                         };
                     }
                 }
@@ -423,9 +423,26 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
                 this.TxtNombreProyecto.Text = funcion.ProyectoFNi;
                 this.tbArgumento.Text = funcion.Argumento;
                 this.TxtNombreIndic.Text = funcion.NombreIndic;
+                this.TxtFormula.Text = funcion.Formula;
+                this.TxtDimension.Text = funcion.Dimension;
+
 
                 // Procesar DatosVariables y asignar valores a TextBoxes
                 AsignarValoresTextBox(funcion.DatosVariables);
+
+
+                List<FuenteIndormacionViewModel> listaCargasFni = CargarDatosFNi();
+
+                if (listaCargasFni.Count > 0)
+                {
+                    // Obtener la ruta de la carpeta
+
+                    // Llamar al método ActualizarGridViewFIn para mostrar los datos en la GridView
+                    ActualizarGridViewFIn(rutaCarpeta, listaCargasFni);
+
+                    // Asignar el primer NombreFNi a la etiqueta TxtNombreFNi (puedes ajustarlo según tu lógica)
+                    TxtNombreFNi.Text = listaCargasFni[0].NombreFNi;
+                }
             }
         }
 
@@ -470,6 +487,21 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
 
                 // Procesar DatosVariables y asignar valores a TextBoxes
                 AsignarValoresTextBox(cargaIndic.DatosVariables);
+
+
+                List<FuenteIndormacionViewModel> listaCargasFni = CargarDatosFNi();
+
+                if (listaCargasFni.Count > 0)
+                {
+                    // Obtener la ruta de la carpeta
+
+                    // Llamar al método ActualizarGridViewFIn para mostrar los datos en la GridView
+                    ActualizarGridViewFIn(rutaCarpeta, listaCargasFni);
+
+                    // Asignar el primer NombreFNi a la etiqueta TxtNombreFNi (puedes ajustarlo según tu lógica)
+                    TxtNombreFNi.Text = listaCargasFni[0].NombreFNi;
+                }
+
             }
         }
 
@@ -705,7 +737,7 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
                 // Lógica para insertar datos con parámetros
                 string insert = @"INSERT INTO dbo.GC_GESTION_INDIC 
                   VALUES (@Id, @Argumento, @NombreVariable, @NombreIndic, @Momento, @NombrePadre, 
-                          @FNi, @NombreProyecto, @Vacio, NULL, NULL, GETDATE(), '', '', '', '', '', 0, @DatosVariables, @Resultado)";
+                          @FNi, @NombreProyecto, @Vacio, @Formula, @Dimension, GETDATE(), '', '', '', '', '', 0, @DatosVariables, @Resultado)";
 
                 cn.Open();
                 using (SqlCommand command = new SqlCommand(insert, cn))
@@ -721,6 +753,8 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
 
                     command.Parameters.AddWithValue("@Argumento", tbArgumento.Text);
                     command.Parameters.AddWithValue("@Vacio", VariablesVacias.Text);
+                    command.Parameters.AddWithValue("@Formula", TxtFormula.Text);
+                    command.Parameters.AddWithValue("@Dimension", TxtDimension.Text);
                     command.Parameters.AddWithValue("@Resultado", TxtResultado.Text);
 
                     // Construir el string de DatosVariables concatenando NombreVariable y Valor
@@ -828,14 +862,14 @@ private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion
         }
         protected void BtnDelete_Click(object sender, EventArgs e)
         {
-            string delete = $"DELETE FROM dbo.GC_GARGA_FIN WHERE strCod_carga_fin = '{this.tbid.Text}'";
+            string delete = $"DELETE FROM dbo.GC_GESTION_INDIC WHERE strCod_gestion_indic = '{this.tbid.Text}'";
             cn.Open();
             using (SqlCommand command = new SqlCommand(delete, cn))
             {
                 command.ExecuteNonQuery();
             }
             cn.Close();
-            Response.Redirect("Funciones.aspx");
+            Response.Redirect("GestionIndicadores.aspx");
         }
 
         private void MostrarError(string mensaje)

@@ -74,7 +74,9 @@ namespace sigac.view.ViewsGestionProcesos.ViewsGestionIndicadores
                                 ProyectoFNi = reader["strFni_gestion_indic"].ToString(),
                                 Momento = reader["strMomento_gestion_indic"].ToString(),
                                 Variables = reader["strVariables_gestion_indic"].ToString(),
-                                DatosVariables = reader["Variables_gestion_indic"].ToString()
+                                DatosVariables = reader["Variables_gestion_indic"].ToString(),
+                                Formula = reader["Formula_gestion_indic"].ToString(),
+                                Dimension = reader["strUser_Log"].ToString()
                             };
 
                             listaGestionIndicador.Add(GestionIndicador);
@@ -170,6 +172,11 @@ namespace sigac.view.ViewsGestionProcesos.ViewsGestionIndicadores
         [JsonProperty("Variables_gestion_indic")]
         public string DatosVariables { get; set; }
 
+        [JsonProperty("Formula_gestion_indic")]
+        public string Formula { get; set; }
+
+        [JsonProperty("strUser_Log")]
+        public string Dimension { get; set; }
 
     }
 }
