@@ -1,0 +1,132 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    align-items: center;
+    padding: 5px;
+}
+
+.titulo1 {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+.texto {
+    font-size: 28px; /* Tamaño de fuente */
+    font-weight: bold; /* Resaltado */
+    text-align: center; /* Centrar el texto */
+    color: #F9F9F9;
+}
+
+
+    .titulo1 .credenciales {
+        color: #fff;
+        font-size: 14px;
+        margin-left: 50px;
+        text-align: right;
+    }
+
+    .titulo1 img {
+        width: 28%;
+    }
+
+.contenedor {
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #312783;
+}
+
+.navbar-expand-lg {
+    background-color: #3A4F63;
+    margin: 0px;
+    padding: 3px;
+}
+
+.navbar-collapse {
+    padding-left: 3px;
+    overflow-x: visible;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #465C71;
+    border: 1px solid #4E667D;
+    padding: 12px 12px;
+    height: 20px;
+}
+
+    .navbar-nav .nav-item a {
+        padding: 0 2px;
+        text-align: center;
+        line-height: 18px;
+        color: #dde4ec;
+    }
+
+.dropdown-menu {
+    background-color: #465C71;
+    padding: 0.1% 0;
+}
+
+.dropdown-item {
+    color: #fff !important;
+    padding: 20px 5px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px solid #4E667D;
+}
+
+.contenido {
+    width: 65%;
+    max-width: 100%; /* Esto permitirá que se ajuste al 100% del ancho del contenedor principal */
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 0px 17.5%;
+    overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado grande */
+    padding: 15px; /* Agrega un poco de espacio interno */
+}
+
+.main {
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+}
+
+.container-fluid {
+    display: inline-block;
+    background-color: #fff;
+    padding: 12px;
+}
+
+
+.contenido hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #6fa9cf;
+}
+
+.vista a {
+    font-size: 100px;
+    color: #034AF3;
+    padding: 15px;
+    width: 100%
+}
+
+.dropdown a {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+/* Estilo para el contenedor padre */
+.Cerrar {
+    text-align: right;
+}
+
+/* Estilo para el botón */
+#btnCerrarSesion {
+    margin-top: 10px; /* Puedes ajustar este valor según sea necesario */
+}

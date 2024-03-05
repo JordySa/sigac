@@ -1,0 +1,137 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    align-items: center;
+    padding: 5px;
+}
+
+.imagen-superior {
+    width: 10%;
+    height: auto;
+}
+
+.titulo1 {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+
+    .titulo1 div {
+        font-size: 28px;
+        text-align: center;
+        color: #F9F9F9;
+        font-weight: 700;
+    }
+
+    .titulo1 .credenciales {
+        color: #fff;
+        font-size: 14px;
+        margin-left: 50px;
+        text-align: right;
+    }
+
+
+.contenedor {
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #312783;
+}
+
+
+
+
+.contenido {
+    width: 65%;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 0px 17.5%
+}
+
+
+
+
+    .contenido hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #6fa9cf; /* Ajusta el valor para cambiar el grosor */
+    }
+
+
+.container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.main {
+    margin: 8%;
+}
+
+    .main div {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+.login {
+    width: 50%;
+}
+
+.avatar {
+    position: absolute;
+    top: 0%;
+    left: 59%; /* Alinea el elemento en el centro horizontalmente */
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+    .avatar img {
+        width: 65%; /* Ancho del 50% del contenedor */
+        height: auto;
+    }
+
+.imgRedonda {
+    border-radius: 50%; /* Hace que la imagen tenga bordes circulares */
+    border: 15px solid #d51317; /* Tamaño del borde y color */
+    display: block; /* Asegura que la imagen es un elemento de bloque */
+}
+
+.formulario {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 13px;
+    border-top: 1px solid #e5e5e5;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#btnLogin {
+    background-color: #123b7c;
+    color: white; /* Puedes ajustar el color del texto según tus necesidades */
+    /* Otros estilos si es necesario */
+}

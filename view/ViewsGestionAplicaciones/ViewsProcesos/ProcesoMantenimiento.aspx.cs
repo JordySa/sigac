@@ -97,91 +97,97 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsProcesos
         {
             try
             {
-                string insert = $"INSERT INTO dbo.GC_PROCES VALUES ('{this.tbid.Text.ToString()}', '{this.tbnombre.Text.ToString()}', '{this.tbdescripcion.Text.ToString()}', '{this.tborden.Text.ToString()}', GETDATE(),'', '', '', '', '', '', '', GETDATE(), '', '', '', '', '', 0, NULL)";
-                cn.Open();
-            using (SqlCommand command = new SqlCommand(insert, cn))
-            {
-                command.ExecuteNonQuery();
-            }
-            cn.Close();
+                string insertQuery = @"
+            INSERT INTO dbo.GC_PROCES 
+            VALUES (@id, @nombre, @descripcion, @orden, GETDATE(), '', '', '', '', '', '', '', GETDATE(), '', '', '', '', '', 0, NULL)";
 
-            // Mostrar una alerta SweetAlert2 después de guardar los datos
-            string script = @"<script>
-                            Swal.fire({
-                                title: 'Datos guardados',
-                                text: 'Los datos se han guardado exitosamente.',
-                                icon: 'success',
-                                confirmButtonText: 'OK'
-                            }).then((result) => {
-                                if (result.isConfirmed) {
-                                    window.location.href = 'Procesos.aspx';
-                                }
-                            });
-                         </script>";
-            ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
-        }
+                using (SqlCommand command = new SqlCommand(insertQuery, cn))
+                {
+                    cn.Open();
+
+                    // Configurar los parámetros
+                    command.Parameters.AddWithValue("@id", tbid.Text);
+                    command.Parameters.AddWithValue("@nombre", tbnombre.Text);
+                    command.Parameters.AddWithValue("@descripcion", tbdescripcion.Text);
+                    command.Parameters.AddWithValue("@orden", tborden.Text);
+
+                    // Ejecutar la consulta
+                    command.ExecuteNonQuery();
+                }
+
+                ShowSweetAlert("Datos guardados exitosamente", "Procesos.aspx");
+            }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción y mostrar un mensaje de error
-                string errorScript = $@"<script>
-                                     Swal.fire(title: 'Error',
-                                        text: 'Hubo un error al guardar los datos. Detalles: {ex.Message}',
-                                        icon: 'error',
-                                        confirmButtonText: 'OK'
-                                    );
-                                 </script>";
-        ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+                ShowErrorSweetAlert($"Hubo un error al guardar los datos. Detalles: {ex.Message}");
+            }
         }
-    }
 
-    protected void BtnUpdate_Click(object sender, EventArgs e)
+        protected void BtnUpdate_Click(object sender, EventArgs e)
         {
             try
             {
-                // Supongamos que strCod_ERIOD la columna que identifica de manera única cada registro
-                string update = $@"
-                UPDATE dbo.GC_PROCES 
-                SET strNombre_proces = '{this.tbnombre.Text}', 
-                    strDescripcion_proces = '{this.tbdescripcion.Text}', 
-                    strOrden_proces = '{this.tborden.Text}'
-                WHERE strCod_proces = '{this.tbid.Text}'";
+                string updateQuery = @"
+            UPDATE dbo.GC_PROCES 
+            SET strNombre_proces = @nombre, 
+                strDescripcion_proces = @descripcion, 
+                strOrden_proces = @orden
+            WHERE strCod_proces = @id";
 
-
-                cn.Open();
-                using (SqlCommand command = new SqlCommand(update, cn))
+                using (SqlCommand command = new SqlCommand(updateQuery, cn))
                 {
+                    cn.Open();
+
+                    // Configurar los parámetros
+                    command.Parameters.AddWithValue("@nombre", tbnombre.Text);
+                    command.Parameters.AddWithValue("@descripcion", tbdescripcion.Text);
+                    command.Parameters.AddWithValue("@orden", tborden.Text);
+                    command.Parameters.AddWithValue("@id", tbid.Text);
+
+                    // Ejecutar la consulta
                     command.ExecuteNonQuery();
                 }
-                cn.Close();
 
-                // Mostrar una alerta SweetAlert2 después de guardar los datos
-                string script = @"<script>
-                      Swal.fire({
-                          title: 'Datos guardados',
-                          text: 'Los datos se han guardado exitosamente.',
-                          icon: 'success',
-                          confirmButtonText: 'OK'
-                      }).then((result) => {
-                          if (result.isConfirmed) {
-                              window.location.href = 'Procesos.aspx';
-                          }
-                      });
-                   </script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
+                ShowSweetAlert("Datos actualizados exitosamente", "Procesos.aspx");
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción y mostrar un mensaje de error
-                string errorScript = $@"<script>
-                               Swal.fire(title: 'Error',
-                                  text: 'Hubo un error al guardar los datos. Detalles: {ex.Message}',
-                                  icon: 'error',
-                                  confirmButtonText: 'OK'
-                              );
-                           </script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+                ShowErrorSweetAlert($"Hubo un error al actualizar los datos. Detalles: {ex.Message}");
             }
         }
+
+        private void ShowSweetAlert(string message, string redirectUrl)
+        {
+            string script = $@"
+        <script>
+            Swal.fire({{
+                title: 'Éxito',
+                text: '{message}',
+                icon: 'success',
+                confirmButtonText: 'OK'
+            }}).then((result) => {{
+                if (result.isConfirmed) {{
+                    window.location.href = '{redirectUrl}';
+                }}
+            }});
+        </script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
+        }
+
+        private void ShowErrorSweetAlert(string errorMessage)
+        {
+            string errorScript = $@"
+        <script>
+            Swal.fire({{
+                title: 'Error',
+                text: '{errorMessage}',
+                icon: 'error',
+                confirmButtonText: 'OK'
+            }});
+        </script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+        }
+
 
 
         protected void BtnDelete_Click(object sender, EventArgs e)

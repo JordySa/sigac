@@ -90,41 +90,26 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsFuentesInformacion
         {
             try
             {
-                // Lógica para insertar datos
-                string insert = $"INSERT INTO dbo.GC_FNI VALUES ('{this.tbid.Text.ToString()}', '{this.tbnombre.Text.ToString()}', '{this.tbdescripcion.Text.ToString()}', '{this.tborden.Text.ToString()}', GETDATE(),'', '', '', '', '', '', '', GETDATE(), '', '', '', '', '', 0, '')";
-                cn.Open();
+                string insert = @"INSERT INTO dbo.GC_FNI 
+                          VALUES (@id, @nombre, @descripcion, @orden, GETDATE(), '', '', '', '', '', '', '', GETDATE(), '', '', '', '', '', 0, '')";
+
                 using (SqlCommand command = new SqlCommand(insert, cn))
                 {
+                    cn.Open();
+
+                    command.Parameters.AddWithValue("@id", tbid.Text);
+                    command.Parameters.AddWithValue("@nombre", tbnombre.Text);
+                    command.Parameters.AddWithValue("@descripcion", tbdescripcion.Text);
+                    command.Parameters.AddWithValue("@orden", tborden.Text);
+
                     command.ExecuteNonQuery();
                 }
-                cn.Close();
 
-                // Mostrar una alerta SweetAlert2 después de guardar los datos
-                string script = @"<script>
-                            Swal.fire({
-                                title: 'Datos guardados',
-                                text: 'Los datos se han guardado exitosamente.',
-                                icon: 'success',
-                                confirmButtonText: 'OK'
-                            }).then((result) => {
-                                if (result.isConfirmed) {
-                                    window.location.href = 'FuentesInformacion.aspx';
-                                }
-                            });
-                         </script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
+                ShowSweetAlert("Datos guardados exitosamente", "FuentesInformacion.aspx");
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción y mostrar un mensaje de error
-                string errorScript = $@"<script>
-                                     Swal.fire(title: 'Error',
-                                        text: 'Hubo un error al guardar los datos. Detalles: {ex.Message}',
-                                        icon: 'error',
-                                        confirmButtonText: 'OK'
-                                    );
-                                 </script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+                ShowErrorSweetAlert($"Hubo un error al guardar los datos. Detalles: {ex.Message}");
             }
         }
 
@@ -132,50 +117,64 @@ namespace sigac.view.ViewsGestionAplicaciones.ViewsFuentesInformacion
         {
             try
             {
-                // Supongamos que strCod_fuentei la columna que identifica de manera única cada registro
-                string update = $@"
-                UPDATE dbo.GC_FNI 
-                SET strNombre_fni = '{this.tbnombre.Text}', 
-                    strDescripcion_fni = '{this.tbdescripcion.Text}', 
-                    strOrden_fni = '{this.tborden.Text}'
-                WHERE strCod_fni = '{this.tbid.Text}'";
+                string update = @"UPDATE dbo.GC_FNI 
+                          SET strNombre_fni = @nombre, 
+                              strDescripcion_fni = @descripcion, 
+                              strOrden_fni = @orden
+                          WHERE strCod_fni = @id";
 
-
-                cn.Open();
                 using (SqlCommand command = new SqlCommand(update, cn))
                 {
+                    cn.Open();
+
+                    command.Parameters.AddWithValue("@nombre", tbnombre.Text);
+                    command.Parameters.AddWithValue("@descripcion", tbdescripcion.Text);
+                    command.Parameters.AddWithValue("@orden", tborden.Text);
+                    command.Parameters.AddWithValue("@id", tbid.Text);
+
                     command.ExecuteNonQuery();
                 }
-                cn.Close();
 
-                // Mostrar una alerta SweetAlert2 después de guardar los datos
-                string script = @"<script>
-                      Swal.fire({
-                          title: 'Datos guardados',
-                          text: 'Los datos se han guardado exitosamente.',
-                          icon: 'success',
-                          confirmButtonText: 'OK'
-                      }).then((result) => {
-                          if (result.isConfirmed) {
-                              window.location.href = 'FuentesInformacion.aspx';
-                          }
-                      });
-                   </script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
+                ShowSweetAlert("Datos actualizados exitosamente", "FuentesInformacion.aspx");
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción y mostrar un mensaje de error
-                string errorScript = $@"<script>
-                               Swal.fire(title: 'Error',
-                                  text: 'Hubo un error al guardar los datos. Detalles: {ex.Message}',
-                                  icon: 'error',
-                                  confirmButtonText: 'OK'
-                              );
-                           </script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+                ShowErrorSweetAlert($"Hubo un error al actualizar los datos. Detalles: {ex.Message}");
             }
         }
+
+        private void ShowSweetAlert(string message, string redirectUrl)
+        {
+            string script = $@"
+        <script>
+            Swal.fire({{
+                title: 'Éxito',
+                text: '{message}',
+                icon: 'success',
+                confirmButtonText: 'OK'
+            }}).then((result) => {{
+                if (result.isConfirmed) {{
+                    window.location.href = '{redirectUrl}';
+                }}
+            }});
+        </script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script);
+        }
+
+        private void ShowErrorSweetAlert(string errorMessage)
+        {
+            string errorScript = $@"
+        <script>
+            Swal.fire({{
+                title: 'Error',
+                text: '{errorMessage}',
+                icon: 'error',
+                confirmButtonText: 'OK'
+            }});
+        </script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "SweetAlertError", errorScript);
+        }
+
 
 
         protected void BtnDelete_Click(object sender, EventArgs e)
