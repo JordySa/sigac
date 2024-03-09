@@ -16,7 +16,7 @@
                             <Columns>
                                 <asp:BoundField DataField="Id" HeaderText="ID" SortExpression="Id" ItemStyle-CssClass="oculto" />
                                 <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
-                                <asp:BoundField DataField="Descripción" HeaderText="Descripción" SortExpression="Descripcion" />
+                                <asp:BoundField DataField="Descripcion" HeaderText="Descripción" SortExpression="Descripcion" />
                                 <asp:BoundField DataField="Orden" HeaderText="Orden" SortExpression="Orden" />
                                 <asp:TemplateField HeaderText="Acciones">
                                     <ItemTemplate>

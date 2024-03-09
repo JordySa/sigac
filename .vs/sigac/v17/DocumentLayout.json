@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewsindicadores\\indicadormantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsfuenteinformacion\\fuenteindormacionmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionprocesos\\viewsfuenteinformacion\\fuenteindormacionmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewsindicadores\\indicadormantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionaplicaciones\\viewsindicadores\\indicadormantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionaplicaciones\\viewsfunciones\\funcionmantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionaplicaciones\\viewsfunciones\\funcionmantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsproyectos\\proyectomantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionprocesos\\viewsproyectos\\proyectomantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|c:\\users\\chris\\onedrive\\escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsfuenteinformacion\\fuenteindormacionmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionprocesos\\viewsfuenteinformacion\\fuenteindormacionmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|solutionrelative:view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E285834-2B81-4851-997C-17539501F4FD}|sigac.csproj|C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\viewsgestionprocesos\\viewsgestionindicadores\\gestionindicadoresmantenimiento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +46,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FuenteIndormacionMantenimiento.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
+              "RelativeDocumentMoniker": "view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
+              "RelativeToolTip": "view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T03:38:46.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestionIndicadoresMantenimiento.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "RelativeDocumentMoniker": "view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "RelativeToolTip": "view\\ViewsGestionProcesos\\ViewsGestionIndicadores\\GestionIndicadoresMantenimiento.aspx.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T03:38:09.198Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\Site.Master",
-              "RelativeDocumentMoniker": "Site.Master",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\Site.Master",
-              "RelativeToolTip": "Site.Master",
+              "Title": "ProyectoMantenimiento.aspx",
+              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsProyectos\\ProyectoMantenimiento.aspx",
+              "RelativeDocumentMoniker": "view\\ViewsGestionProcesos\\ViewsProyectos\\ProyectoMantenimiento.aspx",
+              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsProyectos\\ProyectoMantenimiento.aspx",
+              "RelativeToolTip": "view\\ViewsGestionProcesos\\ViewsProyectos\\ProyectoMantenimiento.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-05T16:42:39.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T17:18:43.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FuncionMantenimiento.aspx",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsFunciones\\FuncionMantenimiento.aspx",
-              "RelativeDocumentMoniker": "view\\ViewsGestionAplicaciones\\ViewsFunciones\\FuncionMantenimiento.aspx",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsFunciones\\FuncionMantenimiento.aspx",
-              "RelativeToolTip": "view\\ViewsGestionAplicaciones\\ViewsFunciones\\FuncionMantenimiento.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-05T16:09:26.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "IndicadorMantenimiento.aspx",
               "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionAplicaciones\\ViewsIndicadores\\IndicadorMantenimiento.aspx",
               "RelativeDocumentMoniker": "view\\ViewsGestionAplicaciones\\ViewsIndicadores\\IndicadorMantenimiento.aspx",
@@ -80,21 +91,7 @@
               "RelativeToolTip": "view\\ViewsGestionAplicaciones\\ViewsIndicadores\\IndicadorMantenimiento.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-05T16:08:38.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuenteIndormacionMantenimiento.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
-              "RelativeDocumentMoniker": "view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
-              "ToolTip": "C:\\Users\\chris\\OneDrive\\Escritorio\\git\\correccion\\sigac\\view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
-              "RelativeToolTip": "view\\ViewsGestionProcesos\\ViewsFuenteInformacion\\FuenteIndormacionMantenimiento.aspx.cs",
-              "ViewState": "AQIAABUBAAAAAAAAAAAAwFABAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T22:21:07.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T16:08:38.518Z"
             },
             {
               "$type": "Document",

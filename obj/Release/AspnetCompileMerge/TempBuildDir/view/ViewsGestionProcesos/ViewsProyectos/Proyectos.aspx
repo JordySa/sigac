@@ -20,28 +20,28 @@
                                 <asp:BoundField DataField="Descripcion" HeaderText="Descripción" SortExpression="Descripcion" />
                                 <asp:BoundField DataField="IdIdic" HeaderText="Indicador" SortExpression="IdIdic" />
                                 <asp:BoundField DataField="FechaI" HeaderText="Fecha de Inicio" SortExpression="FechaI" />
-                                <asp:BoundField DataField="FechaF" HeaderText="Fecha Culminacion" SortExpression="FechaF" />
+                                <asp:BoundField DataField="FechaF" HeaderText="Fecha Culminación" SortExpression="FechaF" />
 
 
                                 <%-- Momento Fuente de Informacion 1 --%>
-                                <asp:BoundField DataField="FechaMomentoIFIn1" HeaderText="Fecha de Inicio Momento Fuente de Informacion 1" SortExpression="FechaMomentoIFIn1" />
-                                <asp:BoundField DataField="FechaMomentoFFIn1" HeaderText="Fecha Culminacion Momento Fuente de Informacion 1" SortExpression="FechaMomentoFFIn1" />
+                                <asp:BoundField DataField="FechaMomentoIFIn1" HeaderText="Fecha de Inicio Momento Fuente de Información 1" SortExpression="FechaMomentoIFIn1" />
+                                <asp:BoundField DataField="FechaMomentoFFIn1" HeaderText="Fecha Culminación Momento Fuente de Información 1" SortExpression="FechaMomentoFFIn1" />
 
                                 <%-- Momento Fuente de Informacion  2 --%>
-                                <asp:BoundField DataField="FechaMomentoIFIn2" HeaderText="Fecha de Inicio Momento Fuente de Informacion 2" SortExpression="FechaMomentoIFIn2" />
-                                <asp:BoundField DataField="FechaMomentoFFIn2" HeaderText="Fecha Culminacion Momento Fuente de Informacion 2" SortExpression="FechaMomentoFFIn2" />
+                                <asp:BoundField DataField="FechaMomentoIFIn2" HeaderText="Fecha de Inicio Momento Fuente de Información 2" SortExpression="FechaMomentoIFIn2" />
+                                <asp:BoundField DataField="FechaMomentoFFIn2" HeaderText="Fecha Culminación Momento Fuente de Información 2" SortExpression="FechaMomentoFFIn2" />
 
                                 <%-- Momento Indicador 1 --%>
                                 <asp:BoundField DataField="FechaMomentoIInd1" HeaderText="Fecha de Inicio Momento del Indicador 1" SortExpression="FechaMomentoIInd1" />
-                                <asp:BoundField DataField="FechaMomentoFInd1" HeaderText="Fecha Culminacion Momento del Indicador 1" SortExpression="FechaMomentoFInd1" />
+                                <asp:BoundField DataField="FechaMomentoFInd1" HeaderText="Fecha Culminación Momento del Indicador 1" SortExpression="FechaMomentoFInd1" />
 
                                 <%-- Momento Indicador 2 --%>
                                 <asp:BoundField DataField="FechaMomentoIInd2" HeaderText="Fecha de Inicio Momento del Indicador 2" SortExpression="FechaMomentoIInd2" />
-                                <asp:BoundField DataField="FechaMomentoFInd2" HeaderText="Fecha Culminacion Momento Fuente de Informacion 2" SortExpression="FechaMomentoFInd2" />
+                                <asp:BoundField DataField="FechaMomentoFInd2" HeaderText="Fecha Culminación Momento Fuente de Información 2" SortExpression="FechaMomentoFInd2" />
 
                                 <%-- Momento Indicador 3 --%>
                                 <asp:BoundField DataField="FechaMomentoIInd3" HeaderText="Fecha de Inicio Momento del Indicador 3" SortExpression="FechaMomentoIInd3" />
-                                <asp:BoundField DataField="FechaMomentoFInd3" HeaderText="Fecha Culminacion Momento del Indicador 3" SortExpression="FechaMomentoFInd3" />
+                                <asp:BoundField DataField="FechaMomentoFInd3" HeaderText="Fecha Culminación Momento del Indicador 3" SortExpression="FechaMomentoFInd3" />
 
 
                                 <asp:TemplateField HeaderText="Acciones">

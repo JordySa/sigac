@@ -18,7 +18,7 @@ namespace sigac.view.ViewsGestionProcesos.ViewsGestionIndicadores
 {
     public partial class GestionIndicadoresMantenimiento : System.Web.UI.Page
     {
-private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion\sigac\file-source";
+private string rutaCarpeta = @"C:\inetpub\wwwroot\sigac\file-source";
 
         readonly SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLConnectionString"].ConnectionString);
         public static string sID = "-1";

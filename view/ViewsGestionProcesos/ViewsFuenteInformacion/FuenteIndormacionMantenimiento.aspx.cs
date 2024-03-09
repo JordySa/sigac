@@ -19,7 +19,7 @@ namespace sigac.view.ViewsGestionProcesos.ViewsFuenteInformacion
         public static string sOpc = "";
 
 
-private string rutaCarpeta = @"C:\Users\chris\OneDrive\Escritorio\git\correccion\sigac\file-source";
+private string rutaCarpeta = @"C:\inetpub\wwwroot\sigac\file-source";
 
         protected void Page_Load(object sender, EventArgs e)
         {

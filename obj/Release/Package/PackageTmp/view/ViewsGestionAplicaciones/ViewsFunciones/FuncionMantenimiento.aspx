@@ -70,6 +70,7 @@
         
 <asp:Button runat="server" class="btn btn-primary btn-dark" ID="BtnReturn" Text="Volver" Visible="true" OnClientClick="return redirectToPage();" />
         </div>
+         </div>
     </form>
 
               

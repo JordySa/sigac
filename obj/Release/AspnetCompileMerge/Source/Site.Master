@@ -5,7 +5,7 @@
 <html lang="es">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
+<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIGAC</title>
 
@@ -73,10 +73,8 @@
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             
-          <a class="dropdown-item" href="/view/ViewsGestionUsuarios/ViewsPermisos/Permisos">Permisos</a>
-          <a class="dropdown-item" href="/view/ViewsGestionUsuarios/ViewsRoles/Roles">Roles</a>
           <a class="dropdown-item" href="/view/ViewsGestionUsuarios/ViewsUsuarios/Usuarios">Usuarios</a>
-          <a class="dropdown-item" href="/view/ViewsGestionUsuarios/ViewsPistasAuditoria/PistasAuditoria">Pistas de Auditoría</a>
+          <a class="dropdown-item" href="/view/ViewsGestionUsuarios/ViewsPadres/Padres">Padres</a>
           <a class="dropdown-item" href="/view/ViewsGestionUsuarios/ViewsEquipos/Equipos">Equipos</a>
 
         </div>

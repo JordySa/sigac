@@ -61,7 +61,7 @@
         
 
                                 <div class="mb-4-custom">
-                                    <label class="form-label">Cálculo:</label>
+                                    <label class="form-label">Operación Matemática:</label>
                                     <asp:TextBox runat="server" CssClass="form-control" ID="tbcalculo" required="true"></asp:TextBox>
                                 </div>
 
@@ -768,6 +768,25 @@
     </script>
 
 
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            var labels = document.querySelectorAll(".form-label");
+
+            labels.forEach(function (label) {
+                label.textContent = reemplazarCaracteresEspeciales(label.textContent);
+            });
+
+            function reemplazarCaracteresEspeciales(texto) {
+                try {
+                    texto = decodeURIComponent(escape(texto));
+                } catch (e) {
+                    console.error("Error al decodificar:", e);
+                }
+
+                return texto;
+            }
+        });
+    </script>
 
 
 
